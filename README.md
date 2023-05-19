@@ -6,6 +6,6 @@
 
 * All The remaining Projects Will be Uploaded here and the projects i have uploaded in my first Repositry will be also added here 
 
-> 👉 Link to my First Repositry : | **[Fullstack-Javascript-2.0-Batch2](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2)**
+> 👉 Link to my First Repositry : | **[Fullstack-Javascript-2.0-Batch2](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2)** 👈
 > --------------------------------|---------------------------------------------------------------------------------------------------------
 > 
