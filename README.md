@@ -16,7 +16,7 @@
 
 <br>
 
-## 🧞‍♂️ **HTML AND CSS PROJECTS** 🧞‍♂️
+## 🧞‍♂️ **HTML AND CSS PROJECTS From Batch-2 ** 🧞‍♂️
 
 Poject Number | Project Name | Project Link
 ---------|----------|---------
