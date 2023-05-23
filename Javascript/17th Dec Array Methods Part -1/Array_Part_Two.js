@@ -152,7 +152,7 @@ Split
 
 converting to array
 split will return the elements in the form of an array and that too individual elements
-where we cab fine their length as well
+where we can find their length as well
 let firstname = "deepak"
 console.log(firstname.split(""))
 console.log(firstname.split("").length)
