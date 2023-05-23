@@ -15,18 +15,18 @@
 --------------------------------
 Project Number | Project Name | Project Live Link
 ---------|----------|-----------------------------
- 1 | Calm |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/Week%203%20Projects%20Html%20Css/Project%201)**
- 2 | Medlife |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/Week%203%20Projects%20Html%20Css/Project%202)**
- 3 | Justice |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/Week%203%20Projects%20Html%20Css/Project%203)**
- 4 | Seo Master |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/Week%20Four%20HTML%20Css%20Projects/Project%201)**
- 5 | Crypto Market |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/Week%20Four%20HTML%20Css%20Projects/Project%202)**
- 6 | Fashion Hub |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/Week%20Four%20HTML%20Css%20Projects/Project%203)**
- 7| Credit Card Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/01_Project-%20Credit%20Card%20Landing%20Page)**
- 8 | Hosting Site Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/02_Project-%20Hosting%20Site%20Landing%20Page)**
- 9 | Gaming Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/03_Project-%20Gaming%20Landing%20Page)**
- 10| RealEstate Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/04_Project-%20Real%20Estate%20Landing%20Page)**
- 11| Beats Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/05_Project-%20Beats%20Landing%20Page)**
- 12 | Data Analytics Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/06_Project-%20Data%20Analytics%20Landing%20Page)**
+ 1 | Calm |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/Week%203%20Projects%20Html%20Css/Project%201) 😊**
+ 2 | Medlife |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/Week%203%20Projects%20Html%20Css/Project%202) 😊**
+ 3 | Justice |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/Week%203%20Projects%20Html%20Css/Project%203) 😊**
+ 4 | Seo Master |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/Week%20Four%20HTML%20Css%20Projects/Project%201) 😊**
+ 5 | Crypto Market |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/Week%20Four%20HTML%20Css%20Projects/Project%202) 😊**
+ 6 | Fashion Hub |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/Week%20Four%20HTML%20Css%20Projects/Project%203) 😊**
+ 7| Credit Card Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/01_Project-%20Credit%20Card%20Landing%20Page) 😊**
+ 8 | Hosting Site Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/02_Project-%20Hosting%20Site%20Landing%20Page) 😊**
+ 9 | Gaming Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/03_Project-%20Gaming%20Landing%20Page) 😊**
+ 10| RealEstate Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/04_Project-%20Real%20Estate%20Landing%20Page) 😊**
+ 11| Beats Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/05_Project-%20Beats%20Landing%20Page) 😊**
+ 12 | Data Analytics Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/06_Project-%20Data%20Analytics%20Landing%20Page) 😊**
 
 👉 Note : Link Will Redirect You To My First Repositry.
 <br>
