@@ -156,5 +156,10 @@ where we cab fine their length as well
 let firstname = "deepak"
 console.log(firstname.split(""))
 console.log(firstname.split("").length)
+
+Output
+-----
+[ 'd', 'e', 'e', 'p', 'a', 'k' ]
+6
 */
 
