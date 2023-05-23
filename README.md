@@ -29,3 +29,12 @@ Project Number | Project Name | Project Live Link
  12 | Data Analytics Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/06_Project-%20Data%20Analytics%20Landing%20Page)**
 
 👉 Note : Link Will Redirect You To My First Repositry.
+<br>
+<br>
+
+## **Talwind Project** 👇
+
+Column A | Project Name | Link
+---------|----------|---------
+ 1 | VS Code Clone  | [Link](https://visualstudio-proj-ineuron.netlify.app/)
+ 
