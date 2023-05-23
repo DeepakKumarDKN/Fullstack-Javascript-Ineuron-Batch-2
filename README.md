@@ -34,7 +34,7 @@ Project Number | Project Name | Project Live Link
 
 ## **Talwind Project** 👇
 
-Column A | Project Name | Link
+Project Number | Project Name | Link
 ---------|----------|---------
  1 | VS Code Clone  | [Link](https://visualstudio-proj-ineuron.netlify.app/)
  
