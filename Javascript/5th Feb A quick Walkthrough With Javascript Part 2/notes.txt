@@ -49,4 +49,4 @@ and then sub() function will be pushed into the stack the same thing will happen
 function as well it will also gets executed and as soon as the execution got over it 
 popped out of the stack
 
-and now the same thing will happen inside the product() function as well.
+and now the same thing will happen with the product() function as well.
