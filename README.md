@@ -33,8 +33,15 @@ Project Number | Project Name | Project Live Link
  10| RealEstate Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/04_Project-%20Real%20Estate%20Landing%20Page) 😊**
  11| Beats Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/05_Project-%20Beats%20Landing%20Page) 😊**
  12 | Data Analytics Landing Page |**[Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2/tree/main/HTML%20and%20CSS/06_Project-%20Data%20Analytics%20Landing%20Page) 😊**
+ <br>
+
 
 👉 Note : Link Will Redirect You To My First Repositry.
+<br>
+<br>
+
+## **🧞HTML CSS PROJECTS From Batch One🧞**
+
 <br>
 <br>
 
