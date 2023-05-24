@@ -12,12 +12,21 @@
 <br>
 
 ![Article Section](./Icons%20Folder/icons8-hashnode-32.png) **Articles Written On Hashnode : [Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-Ineuron-Batch-2/tree/main/Articles)**
+
+<br>
+
+
+### ![Icon](./Icons%20Folder/js.png) Javascript Articles: 📖
+* 👉 Temporal Dead Zone : [link](https://deepaknayak.hashnode.dev/temporal-dead-zone)
+
+
+
 <br>
 <br>
 
 
 
-## **🧞HTML CSS PROJECTS🧞**
+## **![Icon](./Icons%20Folder/html-5%20(1).png) ![Icon](./Icons%20Folder/css-3.png) HTML CSS PROJECTS** 
 --------------------------------
 Project Number | Project Name | Project Live Link
 ---------|----------|-----------------------------
@@ -40,7 +49,7 @@ Project Number | Project Name | Project Live Link
 <br>
 <br>
 
-## **🧞HTML CSS PROJECTS From Batch One🧞**
+## ![](./Icons%20Folder/html-5%20(1).png) ![](./Icons%20Folder/css-3.png) HTML CSS PROJECTS From Batch One
 
 <br>
 <br>
