@@ -1,7 +1,11 @@
 Call Stack
 -----------
 Callstack keep the track of the function call and as well as variables which are 
-being defined in the program.
+being defined in the program. 
+
+or 
+
+We use call stack for memorizing which function is running right now
 
 It follows the LIFO Principle.
 
