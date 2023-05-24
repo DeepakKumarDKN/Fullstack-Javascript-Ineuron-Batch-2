@@ -6,3 +6,5 @@ let playerNames = [
 ]
 playerNames.shift()
 console.log(playerNames)
+
+// Note: Shift always removes the first element

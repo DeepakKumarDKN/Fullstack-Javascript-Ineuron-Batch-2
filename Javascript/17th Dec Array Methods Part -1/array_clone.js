@@ -8,8 +8,11 @@ console.log(arrayTwo)
 console.log(arrayOne)
 
 // another way to clone using concat
-let array1 = [10,20,30,40]
+let array1 = [10,20,30,40,100,180]
 let array2 = [].concat(array1)
+
+let array5 = array1.concat(array2)
+console.log(array5)
 console.log(array2)
 console.log(array1)
 
