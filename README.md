@@ -25,7 +25,7 @@
 
 
 
-## **![Icon](./Icons%20Folder/html-5%20(1).png) ![Icon](./Icons%20Folder/css-3.png) HTML CSS PROJECTS** 
+# **![Icon](./Icons%20Folder/html-5%20(1).png) ![Icon](./Icons%20Folder/css-3.png) HTML CSS PROJECTS** 
 --------------------------------
 Project Number | Project Name | Project Live Link
 ---------|----------|-----------------------------
@@ -48,7 +48,7 @@ Project Number | Project Name | Project Live Link
 <br>
 <br>
 
-## ![](./Icons%20Folder/html-5%20(1).png) ![](./Icons%20Folder/css-3.png) HTML CSS PROJECTS From Batch One
+# **![](./Icons%20Folder/html-5%20(1).png) ![](./Icons%20Folder/css-3.png) HTML CSS PROJECTS From Batch One**
 
 <br>
 <br>
