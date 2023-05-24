@@ -1,6 +1,6 @@
 # :computer: Fullstack Javascript Ineuron Batch-2
 
-# About 🙋‍♂️
+## About 🙋‍♂️
 * #### Hi Guys this is second github Repo for Fullstack Javascript Bootcamp Ineuron I will Add all the projects Link Here
 * #### The projects will be added little bit lately as i joined the batch after 3months
 * #### I have made this Repositry because of some problems I faced while commiting in  my first Repositry, the Remaining assignments will be added here, will also link  all the projects i have made in my 1st Repositry
