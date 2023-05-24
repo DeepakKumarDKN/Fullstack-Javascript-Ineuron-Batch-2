@@ -1,0 +1,52 @@
+Call Stack
+-----------
+Callstack keep the track of the function call and as well as variables which are 
+being defined in the program.
+
+It follows the LIFO Principle.
+
+We use call stack to get to know that what function is being getting executed right now. 
+Basically a javascript engine uses the callstack to manage the execution context.
+
+It builds a global execution context and pushed it intp the stack. as we know that in javascript 
+whenever a program is getting executed the global execution context is created. 
+
+and if a function is being called then a funtion execution context is getting crated and pushed it
+into the callstack and when the function execution gets over it pooped out of the task .
+
+Program for Callstack
+---------------------
+function sum(){
+    let a = 10 
+    let b = 20 
+    sum = a+b
+    return sum
+}
+console.log(sum())
+
+function sub(){
+
+    let a =20
+    let b = 30 
+    sub = (a-b)
+    console.log(sub)
+}
+sub()
+
+function product(){
+    let num1 = 10 
+    let num2 = 20
+    pro = num1*num2
+    console.log(pro)
+}
+product()
+
+so first of all global execution context is created and pushed into the call stack. 
+after that the sum() function is getting called and pushed into the stack as soon as the
+execution got over it popped out of the stack. 
+
+and then sub() function will be pushed into the stack the same thing will happen with sub()
+function as well it will also gets executed and as soon as the execution got over it 
+popped out of the stack
+
+and now the same thing will happen inside the product() function as well.
