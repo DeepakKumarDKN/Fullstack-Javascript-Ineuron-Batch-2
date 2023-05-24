@@ -8,10 +8,10 @@ It follows the LIFO Principle.
 We use call stack to get to know that what function is being getting executed right now. 
 Basically a javascript engine uses the callstack to manage the execution context.
 
-It builds a global execution context and pushed it intp the stack. as we know that in javascript 
-whenever a program is getting executed the global execution context is created. 
+The javascript engine is creating the global execution context whenwer we runs the script and pushed
+at the top of the stack.
 
-and if a function is being called then a funtion execution context is getting crated and pushed it
+and if a function is being called then a funtion execution context is getting created and pushed it
 into the callstack and when the function execution gets over it pooped out of the task .
 
 Program for Callstack
