@@ -5,8 +5,7 @@
 * #### The projects will be added little bit lately as i joined the batch after 3months
 * #### I have made this Repositry because of some problems I faced while commiting in  my first Repositry, the Remaining assignments will be added here, will also link  all the projects i have made in my 1st Repositry
 
->* **Name of the First Repositry :**  <br>
-👉 [Fullstack-Javascript-2.0-Batch2](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2)
+* **Name of the First Repositry :**  [Fullstack-Javascript-2.0-Batch2](https://github.com/DeepakKumarDKN/Fullstack-Javascript-2.0-Batch2)
 
 
 <br>
