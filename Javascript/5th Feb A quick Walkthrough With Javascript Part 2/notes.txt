@@ -5,7 +5,8 @@ being defined in the program.
 
 or 
 
-We use call stack for memorizing which function is running right now
+We use call stack for memorizing which function is running right now, it also manages the execution 
+context  
 
 It follows the LIFO Principle.
 
