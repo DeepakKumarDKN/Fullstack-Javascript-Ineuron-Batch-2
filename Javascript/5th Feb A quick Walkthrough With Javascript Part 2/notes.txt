@@ -71,4 +71,26 @@ any error for that.
 Closures: 
 ---------
 Function along with its lexical environment forms a closure But what is lexical environment 
-whwnever a execution context is created an lexical environment is also created.
+whenever a execution context is created an lexical environment is also created.
+
+Lexical Environment is the local memory along with the lexical environment of its parent.
+or in the simple words.
+
+closure is something which is having access to its outer environment.
+inner function having the access to its outer function or whateer we have defined
+inside the outer function, and as well as whetever we have defined in its global variables
+
+
+
+function displayName(){
+    let username = "deepak"
+    function dispplayDetails(){
+        console.log(username)
+    }
+    dispplayDetails()
+}
+displayName()
+
+lexical mean where that spcecfic variable/function is present inside the code
+from this example i can say that dispplayDetails is lexically sitting inside displayName function
+and displayName is lexically sitting inside the global scope.

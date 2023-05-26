@@ -1,8 +1,14 @@
-function displayName(){
-    let username = "deepak"
-    function dispplayDetails(){
-        console.log(username)
+function Outer(){
+    let name = "deepak"
+    function Inner(){
+        let surname = "nayak"
+        function deep(){
+            console.log(name)
+            console.log(surname)
+        }
+        deep()
     }
-    dispplayDetails()
+    Inner()
+
 }
-displayName()
+Outer()
