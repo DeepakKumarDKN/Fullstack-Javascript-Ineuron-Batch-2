@@ -3,11 +3,6 @@ Call Stack
 Callstack keep the track of the function call and as well as variables which are 
 being defined in the program. 
 
-or 
-
-We use call stack for memorizing which function is running right now, it also manages the execution 
-context  
-
 It follows the LIFO Principle.
 
 We use call stack to get to know that what function is being getting executed right now. 
@@ -55,3 +50,25 @@ function as well it will also gets executed and as soon as the execution got ove
 popped out of the stack
 
 and now the same thing will happen with the product() function as well.
+
+Hoisting: 
+--------
+Hoisting is a phenomena in javascript by which we can acess something without even before initializing it.
+
+so even before the code starts executing the memory is allocated to 
+each and every variables and functions
+
+due to hoisting the variable is allocated some memory space and assigned a special value called undefined and if there is any function during phase one then the whole function code is saved into it.
+
+so everything happen during phase one.
+
+when the code execution phase will start at that time the actual value of of the variable will get attatched to it in the place of undefined
+
+so when some one will ask you what is hoisting then instead of telling them that moving the variable to the top etc etc we can explain them that due to hositing only we can acess those variable withouteven declaration or without even executing single line of code and the most intresting part is that we will never get 
+any error for that.
+
+
+Closures: 
+---------
+Function along with its lexical environment forms a closure But what is lexical environment 
+whwnever a execution context is created an lexical environment is also created.
