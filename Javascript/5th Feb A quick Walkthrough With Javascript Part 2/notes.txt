@@ -77,8 +77,8 @@ Lexical Environment is the local memory along with the lexical environment of it
 or in the simple words.
 
 closure is something which is having access to its outer environment.
-inner function having the access to its outer function or whateer we have defined
-inside the outer function, and as well as whetever we have defined in its global variables
+inner function having the access to its outer function or whatever we have defined
+inside the outer function, and as well as whetever we have defined in the global.
 
 
 
@@ -94,3 +94,45 @@ displayName()
 lexical mean where that spcecfic variable/function is present inside the code
 from this example i can say that dispplayDetails is lexically sitting inside displayName function
 and displayName is lexically sitting inside the global scope.
+
+
+Lexical Enironment: 
+-------------------
+Lexical Enironment is the local memory along with its parent lexical environment.
+lexical mean where it is physically present let get into an example.
+
+function displayDetails(){
+    let name = "deepak";
+    let surname = "nayak;
+    let location = "kolkotta";
+
+    function displayName(){
+        console.log(name)
+    }
+    displayName()
+}
+displayDetails()
+
+in this example i want to console name  in displayName() function 
+so fist of all it will try to search name in the local memory of 
+displayName() function i mean inside the displayName(). 
+
+If it is not present then it will try to find out in the lexical environment 
+of its parent and lexical mean where it is physically present and displayName() 
+function is present inside the displayDetails() function
+
+so displayName() lexical parent is displayDetails().
+
+suppose if it is not present in the displayDetails() then again it will try to find out 
+in the lexical environment of displayDetails() which is global 
+
+and in global also if it is not present then it will try to find out in the global 
+lexical environment which is null and hence the program will stop now 
+
+so now i have searched all the lexical environment and it is present anywhere 
+in this case the program will stop and js engine says that the 'name' is not 
+present anywhere so we will get an output of notdefined. 
+
+so this mechanisim of finding out variable from one local memory 
+to another from one lexical environment to another in known as 
+scope chaining.
