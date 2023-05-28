@@ -94,3 +94,15 @@ function greeting(message) {
 
  sayHi('John')
  sayHello('Deepak')
+
+function counter(){
+    let count = 0;
+
+    function calculate(){
+        console.log(count+1)
+    }
+    return calculate
+}
+
+result = counter()
+result()

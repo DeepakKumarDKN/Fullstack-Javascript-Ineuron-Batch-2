@@ -84,8 +84,43 @@ as well as if i have defined somthing outside the Outer function i.e in the glob
 
 or 
 
-Closure is a function that references the variable of outer scope from its inner scope. 
+. 
 A closure is a combination of a function and its ability to remember variables in the outer scope
+
+closure still remember where the particular varaible is defined even after the execuion is done.
+if i have defined something in the outer function, After the outer function execution is being done 
+then also it remembers the where the variable is defined in the outer scope.
+
+
+Closure Example For Better Understanding: 
+-----------------------------------------
+function counter(){
+    let count = 0;
+
+    function calculate(){
+        console.log(count+1)
+    }
+    return calculate
+}
+
+result = counter()
+result()
+
+Closure is a function that references the variable of outer scope from its inner scope : (Explanation):
+-
+Yes i am referencing the variable of outerscope from its inner scope. I am able to access the the value of count
+from my child function i.e calculate from the outer or parent function i.e from its counter function.
+
+Look at line number 106. result is now not holding any value of counter its just referencing to the calculate 
+function or now its just hold the calculate function.
+
+Closure function preserve the outer scope inside the inner scope even after the  outer function is returned (Explanation)
+Look at line number 106 the function is already returned and the execution is already completed and its very evident that 
+if somethung execution is being completed then whetever have defined inside the function is getting garbage collected
+
+but here in this case after the execution is being completed but still result function is using the data that still 
+defined inisde the counter function and it still remember that we have defined a varibles something called count
+and all this is happening just because of closure.
 
 
 
