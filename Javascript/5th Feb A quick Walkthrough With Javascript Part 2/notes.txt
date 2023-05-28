@@ -136,3 +136,7 @@ present anywhere so we will get an output of notdefined.
 so this mechanisim of finding out variable from one local memory 
 to another from one lexical environment to another in known as 
 scope chaining.
+
+Callback
+-------
+A function which can be passed as a parameter to other function.
