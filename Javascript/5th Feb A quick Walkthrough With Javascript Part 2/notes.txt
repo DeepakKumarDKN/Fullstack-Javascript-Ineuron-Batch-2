@@ -85,6 +85,7 @@ as well as if i have defined somthing outside the Outer function i.e in the glob
 or 
 
 Closure is a function that references the variable of outer scope from its inner scope. 
+A closure is a combination of a function and its ability to remember variables in the outer scope
 
 
 
@@ -96,6 +97,8 @@ function displayName(){
     dispplayDetails()
 }
 displayName()
+
+Lexical scoping determines where the variable is present inside the code.
 
 lexical mean where that spcecfic variable/function is present inside the code
 from this example i can say that dispplayDetails is lexically sitting inside displayName function
