@@ -107,20 +107,25 @@ result = counter()
 result()
 
 Closure is a function that references the variable of outer scope from its inner scope : (Explanation):
--
+------------------------------------------------------------------------------------------------------------
 Yes i am referencing the variable of outerscope from its inner scope. I am able to access the the value of count
 from my child function i.e calculate from the outer or parent function i.e from its counter function.
 
 Look at line number 106. result is now not holding any value of counter its just referencing to the calculate 
 function or now its just hold the calculate function.
 
-Closure function preserve the outer scope inside the inner scope even after the  outer function is returned (Explanation)
+Closure function preserve the outer scope inside the inner scope even after the  outer function is returned (Explanation):
+---------------------------------------------------------------------------------------------------------------------------
 Look at line number 106 the function is already returned and the execution is already completed and its very evident that 
 if somethung execution is being completed then whetever have defined inside the function is getting garbage collected
 
 but here in this case after the execution is being completed but still result function is using the data that still 
 defined inisde the counter function and it still remember that we have defined a varibles something called count
 and all this is happening just because of closure.
+
+so when we define a function inside a function then when you return the child function, the child function 
+still remember the data of the parent function even after the parent function has completed its execution.
+that is closure.
 
 
 
