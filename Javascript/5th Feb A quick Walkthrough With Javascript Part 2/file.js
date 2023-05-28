@@ -74,12 +74,12 @@ result()
 
 // Closure Example Three
 
-function FullName(firstname,lastname){
-    function printFullName(){
-        console.log(`${firstname} ${lastname}`)
-    }
-    return printFullName
-}
+// function FullName(firstname,lastname){
+//     function printFullName(){
+//         console.log(`${firstname} ${lastname}`)
+//     }
+//     return printFullName
+// }
 
-let result = FullName('Deepak Kumar','Nayak')
-result()
+// let result = FullName('Deepak Kumar','Nayak')
+// result()
