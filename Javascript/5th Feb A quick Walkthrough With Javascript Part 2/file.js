@@ -44,6 +44,8 @@
 // displayData()
 
 // Closure Example;
+
+/*
 function outer(){
     let username = 'deepak';
     function inner(){
@@ -53,3 +55,31 @@ function outer(){
 }
 var z = outer()
 z()
+
+*/
+
+// Closure Example 2:
+
+/*
+function outerFunction(){
+    function innerFunction(){
+        console.log('This is inner function')
+    }
+    return innerFunction
+}
+
+let result = outerFunction()
+result()
+*/
+
+// Closure Example Three
+
+function FullName(firstname,lastname){
+    function printFullName(){
+        console.log(`${firstname} ${lastname}`)
+    }
+    return printFullName
+}
+
+let result = FullName('Deepak Kumar','Nayak')
+result()

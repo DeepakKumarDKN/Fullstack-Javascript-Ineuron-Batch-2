@@ -140,3 +140,19 @@ scope chaining.
 Callback
 -------
 A function which can be passed as a parameter to other function.
+
+function outerFunction(){
+    function innerFunction(){
+        console.log('This is inner function')
+    }
+    return innerFunction
+}
+
+let result = outerFunction()
+result()
+
+in the above example i have created an outer function and inside outer function 
+i have created and inner function. 
+
+in line number 151 the outer function is returning the inner function.
+so it is clear that a function can return another function.
