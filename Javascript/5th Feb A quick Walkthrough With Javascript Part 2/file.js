@@ -27,18 +27,29 @@
 // console.log(profile())
 
 
-let userName = "deepak"
+// let userName = "deepak"
 
-function displayData(){
-    let gmail = "deepak@gmail.com";
-    let courseTaken = 1;
-    function courseName(){
-        let courseName = 'fullstack javascript 2.0'
-        function displayCourseName(){
-            console.log(`${courseName} ${userName}`)
-        }
-        displayCourseName()
+// function displayData(){
+//     let gmail = "deepak@gmail.com";
+//     let courseTaken = 1;
+//     function courseName(){
+//         let courseName = 'fullstack javascript 2.0'
+//         function displayCourseName(){
+//             console.log(`${courseName} ${userName}`)
+//         }
+//         displayCourseName()
+//     }
+//     courseName()
+// }
+// displayData()
+
+// Closure Example;
+function outer(){
+    let username = 'deepak';
+    function inner(){
+        console.log(username)
     }
-    courseName()
+    return inner
 }
-displayData()
+var z = outer()
+z()
