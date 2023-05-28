@@ -83,3 +83,14 @@ result()
 
 // let result = FullName('Deepak Kumar','Nayak')
 // result()
+
+function greeting(message) {
+    return function(name){
+         console.log(message,name)
+    }
+ }
+ let sayHi = greeting('Hi');
+ let sayHello = greeting('Hello');
+
+ sayHi('John')
+ sayHello('Deepak')

@@ -76,9 +76,15 @@ whenever a execution context is created an lexical environment is also created.
 Lexical Environment is the local memory along with the lexical environment of its parent.
 or in the simple words.
 
-closure is something which is having access to its outer environment.
-inner function having the access to its outer function or whatever we have defined
-inside the outer function, and as well as whetever we have defined in the global.
+Closure mean if i am creating an function for an example an Outer function and inside the Outer function 
+i am creating an Inner function. 
+
+So from inner function i can access everything which i have defined in the outer function 
+as well as if i have defined somthing outside the Outer function i.e in the global.
+
+or 
+
+Closure is a function that references the variable of outer scope from its inner scope. 
 
 
 
