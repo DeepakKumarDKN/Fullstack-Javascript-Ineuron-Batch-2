@@ -6,5 +6,5 @@
 
 let arrayOne = ['html','css','pw skills','react','javascript','pw skills']
 
-console.log(`The first Occurence of the word 'pw skills' is ${arrayOne.lastIndexOf("pw skills",4)}`)
+console.log(`The first Occurence of the word 'pw skills' is ${arrayOne.lastIndexOf("pw skills", 4)}`)
 console.log(`The last Occurence of the word 'pw skills' is ${arrayOne.lastIndexOf("pw skills")}`)
