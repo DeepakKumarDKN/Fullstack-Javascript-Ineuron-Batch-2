@@ -22,7 +22,7 @@ console.log(4 != 4) //flase
 console.log(4 !== 4) // false
 console.log(4 != '4') //flase
 console.log(4 == '4') //true
-console.log(4 === '4') // true
+console.log(4 === '4') // false 
 
 let language = "python"
 console.log(language.length)
