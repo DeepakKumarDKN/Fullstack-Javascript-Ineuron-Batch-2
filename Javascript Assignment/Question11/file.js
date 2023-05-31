@@ -1,5 +1,3 @@
-// Date Time Questions answers
-
 // 11. Use the Date object to do the following activities
 const date = new Date()
 
