@@ -1,3 +1,5 @@
+// Date Time Questions answers
+
 // 11. Use the Date object to do the following activities
 const date = new Date()
 
@@ -21,6 +23,8 @@ console.log(date.getMinutes())
 
 // Find out the numbers of seconds elapsed from January 1, 1970 to now.
 console.log(Date.now())
+
+
 
 
 
