@@ -8,13 +8,14 @@
 //     - Obese: BMI is 30 or more
 
 
+
 const prompt = require("prompt-sync")();
 
 const BMIcalculator = () =>{
     let weight = parseInt(prompt('Enter the Weight in Kg:'))
     let height = parseInt(prompt('Enter the Height:'))
 
-    let bmi = weight/(height*height) 
+    bmi = (weight / Math.pow( (height/100), 2 )).toFixed(2);
     console.log(bmi)
 
     if (bmi < 18.5){
