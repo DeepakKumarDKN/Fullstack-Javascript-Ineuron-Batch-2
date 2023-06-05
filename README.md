@@ -18,7 +18,8 @@
 ### ![Icon](./Icons%20Folder/js.png) Javascript Articles: 📖
 * 👉 Temporal Dead Zone : [link](https://deepaknayak.hashnode.dev/temporal-dead-zone)
 
-
+### ![Icon](./Icons%20Folder/js.png) Javascript Assignments ⬇️
+👉[ 30 Questions Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-Ineuron-Batch-2/tree/main/Javascript%20Assignment)
 
 <br>
 <br>
