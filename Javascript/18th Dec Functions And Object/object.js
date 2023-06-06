@@ -145,3 +145,29 @@ for(let i in usersInfo){
 const [{firstname:username}, , {gender:usergender}] = usersInfo
 console.log(username)
 console.log(usergender)
+
+
+// declaring a method inside object:
+
+
+const detailsInfo = {
+  username: 'deepak',
+  location: 'kolkotta',
+  jobRole: 'MernStack Developer',
+  rating: 5,
+  isverified: true,
+
+  // now i will declare a method inside the object
+  // printDetails: () =>{
+  //   console.log(`${this.username}`)
+  // }
+
+}
+
+
+
+for(let x in detailsInfo){
+  console.log(detailsInfo[x])
+}
+
+
