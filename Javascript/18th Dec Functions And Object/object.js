@@ -165,7 +165,7 @@ const detailsInfo = {
 }
 
 
-
+//using forin loop in object
 for(let x in detailsInfo){
   console.log(detailsInfo[x])
 }
