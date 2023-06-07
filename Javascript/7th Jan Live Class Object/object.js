@@ -64,12 +64,13 @@ console.log(data.about())
 // Example: 
 
 
-function profile(name,lastname,age,profession){
+function profile(name,lastname,age,profession,rating){
     const profileData = Object.create(profileabout)
     profileData.name = name,
     profileData.lastname = lastname,
     profileData.age = age,
     profileData.profession = profession
+    profileData.rating = rating
 
     return profileData
 
@@ -78,14 +79,25 @@ function profile(name,lastname,age,profession){
 const profileabout = {
     is_about: function(){
         return `${this.name} and he works as a ${this.profession}`
+    },
+    feedBack: function(){
+        if(this.rating > 7){
+            console.log('He is a GoodDeveloper')
+        }
     }
+
+
 }
 
 
-const profileOne = profile('Deepak Kumar','Nayak',2345,'Mern Stack Developer')
+const profileOne = profile('Deepak Kumar','Nayak',2345,'Mern Stack Developer',8)
 console.log(profileOne.is_about())
+profileOne.feedBack()
 
 // though i am using here Object.create function just look at the code 
 // i havn't used profession inside the profileData function 
 // but still i am using Object.create() i can able to access it.  
 
+
+
+console.log(profileOne.__proto__)
