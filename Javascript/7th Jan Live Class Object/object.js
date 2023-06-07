@@ -91,8 +91,9 @@ const profileabout = {
 
 
 const profileOne = profile('Deepak Kumar','Nayak',2345,'Mern Stack Developer',8)
-console.log(profileOne.is_about())
-profileOne.feedBack()
+// console.log(profileOne.is_about())
+// profileOne.feedBack()
+console.log(profileOne)
 
 // though i am using here Object.create function just look at the code 
 // i havn't used profession inside the profileData function 
@@ -101,3 +102,14 @@ profileOne.feedBack()
 
 
 console.log(profileOne.__proto__)
+console.log(Object.getPrototypeOf(profileOne))
+
+
+// __proto__ is the reference for profileabout 
+// __proto__ and prototype both are diffrent things
+
+// due to Object.create we are able to access those things which i havnt defined inside the 
+// profile_about function.
+
+// due to Object.create(objectname) we are able to inherit the properties from the respected Object
+// here in the above example i am inheriting from profileAbout Object. 
