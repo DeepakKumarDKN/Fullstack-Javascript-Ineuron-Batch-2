@@ -113,3 +113,14 @@ console.log(Object.getPrototypeOf(profileOne))
 
 // due to Object.create(objectname) we are able to inherit the properties from the respected Object
 // here in the above example i am inheriting from profileAbout Object. 
+
+// Creating Object and assigning value to it.
+
+const object2 = Object.create({})
+object2.name = "deepak"
+object2.fullname = "deepak kumar nayak"
+object2.location = "India"
+object2.profession = "MernStack Developer"
+
+console.log('Inside the Object2')
+console.log(object2)
