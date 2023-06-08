@@ -130,6 +130,8 @@ console.log(object2)
 
 const user = {
     name:"deepak Kumar nayak",
+    email :'deepak@gmail.com',
+    employeeId : 123456789,
     location: 'Kolkotta',
     isloggedin: true,
     lastLoggedinDays : ['Monday', 'Tuesday']
@@ -137,3 +139,25 @@ const user = {
 
 //console.log(user.name) | this one is also okay but we should consider the loer one
 // console.log(user['name']) | this is the correct way of accessing objects
+
+// how to add s symbol in an object 
+// syntax [variablename]: "value"
+
+const mykey = Symbol('keyone')
+
+const userTwo = {
+    name:"deepak Kumar nayak",
+    email :'deepak@gmail.com',
+    employeeId : 123456789,
+    location: 'Kolkotta',
+    isloggedin: true,
+    lastLoggedinDays : ['Monday', 'Tuesday'],
+
+    // adding a symbol
+
+    [mykey]: 'Ineuron'
+}
+
+console.log(userTwo[mykey])
+// if we want to access a symbol them we have to access inside the square bracket we cannot access it just by writting 
+//console.log(userTwo.mykey)
