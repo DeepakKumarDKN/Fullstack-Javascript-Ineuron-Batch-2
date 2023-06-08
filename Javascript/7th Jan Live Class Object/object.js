@@ -161,3 +161,30 @@ const userTwo = {
 console.log(userTwo[mykey])
 // if we want to access a symbol them we have to access inside the square bracket we cannot access it just by writting 
 //console.log(userTwo.mykey)
+
+
+// changing the alue of object 
+
+userTwo.name = "rahul krishna vaidya"
+console.log(userTwo)
+
+/*
+{
+    name: 'rahul krishna vaidya',
+    email: 'deepak@gmail.com',
+    employeeId: 123456789,
+    location: 'Kolkotta',
+    isloggedin: true,
+    lastLoggedinDays: [ 'Monday', 'Tuesday' ],
+    [Symbol(keyone)]: 'Ineuron'
+  }
+
+*/
+
+
+// name is changed from deepak kumar nayak to rahul krishna vaidya
+
+// we can also add freeze method () after using freeze we are not allowed to do any changes 
+
+// Object.freeze(objectname)
+// Object.freeze(userTwo)
