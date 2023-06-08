@@ -124,3 +124,16 @@ object2.profession = "MernStack Developer"
 
 console.log('Inside the Object2')
 console.log(object2)
+
+
+// corect way of accessing objects 
+
+const user = {
+    name:"deepak Kumar nayak",
+    location: 'Kolkotta',
+    isloggedin: true,
+    lastLoggedinDays : ['Monday', 'Tuesday']
+}
+
+//console.log(user.name) | this one is also okay but we should consider the loer one
+// console.log(user['name']) | this is the correct way of accessing objects
