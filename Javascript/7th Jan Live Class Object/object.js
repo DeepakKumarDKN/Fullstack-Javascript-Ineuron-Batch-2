@@ -188,3 +188,17 @@ console.log(userTwo)
 
 // Object.freeze(objectname)
 // Object.freeze(userTwo)
+
+// inserting an function to an object 
+
+userTwo.greeting = function(){
+    console.log('Helo js user')
+}
+
+// this one will return you the function we hae studied it in the execution context. function execute is not being done here yet so now it is pointing 
+// towards the whole function
+console.log(userTwo.greeting)
+
+
+// this is will gove us back the function
+userTwo.greeting()
