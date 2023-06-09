@@ -254,3 +254,24 @@ console.log(obj5)
 
 // console.log(obj3)
 // console.log(obj4)
+
+
+//OBJECTS PART -3
+//objects destructuring
+
+
+const course = {
+    coursename : 'js in hindi',
+    price : '999',
+    courseinstructor:'hitesh'
+}
+
+// const {courseinstructor} = course
+// console.log(courseinstructor)
+
+// const {courseinstructor:instructor} = course
+// console.log(instructor)
+
+
+
+
