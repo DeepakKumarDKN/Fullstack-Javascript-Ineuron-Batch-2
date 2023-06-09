@@ -224,6 +224,9 @@ tinderUser.location = "India"
 tinderUser.city = "Kolkotta"
 tinderUser.loggedin = true 
 
+// this is ver important will be used in projects
+console.log(Object.keys(tinderUser)) 
+console.log(Object.values(tinderUser))
 
 
 const regularUser = {
@@ -237,3 +240,17 @@ const regularUser = {
 }
 
 console.log(regularUser.fullname.userfullname)
+
+// Merging and combining of Objects
+
+const obj1 = {1:'a', 2:'b'}
+const obj2 = {3:'a', 4:'b'}
+
+const obj3 = {obj1, obj2} // donot go for this one
+
+const obj4 = {...obj1 , ...obj2} // this is also good prefer this one
+const obj5 = Object.assign({}, obj1, obj2) // this also good
+console.log(obj5)
+
+// console.log(obj3)
+// console.log(obj4)
