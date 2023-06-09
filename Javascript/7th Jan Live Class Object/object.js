@@ -200,5 +200,15 @@ userTwo.greeting = function(){
 console.log(userTwo.greeting)
 
 
-// this is will gove us back the function
+// this is will give us back the function
 userTwo.greeting()
+
+// creating the function to print the name 
+
+userTwo.greeting2 = function(){
+    console.log(this.name)
+}
+
+userTwo.greeting2()
+
+//Objects Part Two
