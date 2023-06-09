@@ -212,3 +212,28 @@ userTwo.greeting2 = function(){
 userTwo.greeting2()
 
 //Objects Part Two
+const tinderuser = {} // this is non single ton object 
+
+//Objects SingleTon
+const tinderUser = new Object () // this is an single ton object 
+tinderUser.name = "Deepak@Kumar"
+tinderUser.id = "123abc"
+tinderUser.hobby = "Learning and coding"
+tinderUser.about = "Fun loving guy who loves to hangout with friends"
+tinderUser.location = "India"
+tinderUser.city = "Kolkotta"
+tinderUser.loggedin = true 
+
+
+
+const regularUser = {
+    email:"deepak@gmail.com",
+    fullname : {
+        userfullname:{
+            firstname:'hitesh',
+            lastname: 'choudhury'
+        }
+    }
+}
+
+console.log(regularUser.fullname.userfullname)
