@@ -221,7 +221,22 @@ var address = "Kolkotta"
 
 */
 
+// Global and Local Scope
+// ----------------------
 
+var a = 20
+// global scope
+
+
+{
+  let a = 30 
+  let b = 40 
+  const c = 50
+
+  console.log(a) // local scope 
+}
+
+console.log(a) // i will get 10 as it is a local scope
 
 
 /*
