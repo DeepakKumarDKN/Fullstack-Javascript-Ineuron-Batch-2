@@ -228,16 +228,27 @@ var a = 20
 // global scope
 
 
-{
-  let a = 30 
-  let b = 40 
-  const c = 50
+// {
+//   let a = 30 
+//   let b = 40 
+//   const c = 50
 
-  console.log(a) // local scope 
+//   console.log(a) // local scope 
+// }
+
+// console.log(a) i will get 10 as it is a local scope
+
+// Scope Examples
+function One(){
+  const username = "deepak"
+
+  function Two(){
+    const website = "Youtube"
+    console.log(username)
+  }
+  console.log(website)
 }
-
-console.log(a) // i will get 10 as it is a local scope
-
+two()
 
 /*
 In this example i am using prompt this will work in borwser
