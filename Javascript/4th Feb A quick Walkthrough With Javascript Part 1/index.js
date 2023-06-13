@@ -133,6 +133,7 @@
 let username = "deepak"
 const surname = 'nayak'
 var address = "Kolkotta"
+const city = "India"
 
 
 // use strict
