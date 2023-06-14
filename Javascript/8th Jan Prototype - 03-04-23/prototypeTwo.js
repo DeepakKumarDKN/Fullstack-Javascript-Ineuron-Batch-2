@@ -23,3 +23,23 @@ console.log(userOne.fullname)
 console.log(userOne.email)
 console.log(userOne.about()) // getting these methods due to Object.create(UseMethods)
 console.log(userOne.profession()) // getting these methods due to Object.create(UseMethods)
+
+
+// creating a pototype function will go with the same example
+
+function CreateUser(firstname,fullname,email,job){
+    const user = Object.create(CreateUser.prototype)
+    user.firstname = firstname;
+    user.fullname = fullname;
+    user.email = email
+    user.job= job
+
+    return user
+}
+
+CreateUser.prototype.bio = function(){
+    return `Hello I am ${this.fullname} and i am a professional ${this.job}`
+}
+
+const userTwo = CreateUser('rahul','rahul krishna vaidya','rahul@gmail.com', 'Singer')
+console.log(userTwo.bio())
