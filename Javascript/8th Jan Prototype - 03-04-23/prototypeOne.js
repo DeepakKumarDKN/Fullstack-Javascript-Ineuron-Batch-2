@@ -11,10 +11,10 @@ let heropower = {
 }
 
 Object.prototype.hitesh = function(){
-  console.log('hello')
+  console.log('this is hitesh prototype function')
 }
 
-myHeros.hitesh()
+dcHeros.hitesh()
 
 
 
