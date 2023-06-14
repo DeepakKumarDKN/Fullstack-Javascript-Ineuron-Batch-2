@@ -13,3 +13,4 @@ function createUser(firstname,fullname,email){
 const userOne = createUser('Deepak','Deepak Kumar Nayak','deepakflushymax@gmail.com')
 console.log(userOne.firstname)
 console.log(userOne.fullname)
+console.log(userOne.email)
