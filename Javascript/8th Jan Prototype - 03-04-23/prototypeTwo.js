@@ -117,3 +117,6 @@ let arrayOne = [1,2,3,4,5,6,7,8,9,10]
 // now what we cab do we can check its length
 // username.length all these functions or methods were being added
 // thats where the prototype comes into action.
+
+// protoptype can be used in function, string, array
+// prototype is a mechanism by which javascript Objects inherit features from one another.
