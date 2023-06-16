@@ -121,22 +121,53 @@ let arrayOne = [1,2,3,4,5,6,7,8,9,10]
 // protoptype can be used in function, string, array
 // prototype is a mechanism by which javascript Objects inherit features from one another.
 
-let student = {
-    name : 'deepak',
-    lastname : 'nayak',
-    getFullname: function(){
-        return `${this.name} ${this.lastname}`
-    },
-    batchName : 'Fullstack Javascript 2.0',
-    getbatchName : function(){
-        return `${this.batchName}`
-    }
+
+// let get_batch_name = {
+//     batchName : 'Fullstack Javascript 2.0',
+//     getbatchName : function(){
+//         return `${this.batchName}`
+//     }
+// }
+
+// let student = {
+//     name : 'deepak',
+//     lastname : 'nayak',
+//     getFullname: function(){
+//         return `${this.name} ${this.lastname}`
+//     }
+// }
+
+// let teacher = {
+//     name : 'Anurag Sir',
+    
+// }
+
+// teacher.__proto__ = get_batch_name
+// student.__proto__ = get_batch_name
+
+// teacher.getbatchName()
+
+
+
+
+
+let studentOne = {
+    name : 'Deepak Kumar',
+    city: 'Kolkotta',
+    gmail : "deepak@gmail.com"
 }
 
-let teacher = {
-    name : 'Anurag Sir',
-    batchName : 'Fullstack Javascript 2.0',
-    getbatchName : function(){
-        return `${this.batchName}`
-    }
+let studentTwo = {
+    name : 'rahul krishna vaidya',
+    city : 'Mumbai',
+    gmail: 'rahul@gmail.com'
 }
+
+Object.prototype.batchName = 'Fullstack Javascript 2.0'
+Object.prototype.Mentorname = "Hitesh Sir and Anurag Sir"
+
+let stu = studentTwo
+console.log(stu.batchName)
+
+let stu_ = studentOne
+console.log(stu_.Mentorname)
