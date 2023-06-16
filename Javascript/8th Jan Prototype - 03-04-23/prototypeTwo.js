@@ -72,3 +72,48 @@ const data = new Data('Srikant','Dubey',18)
 console.log(data.firstname)
 
 console.log(data.is18())
+
+
+// Prototype Defination
+// so whenever you create an object the javascript engine without even letting you know attaches your object to diffrent methods
+
+// when we will write array.
+// we will get some other functions like concat , fill, filter, map, findIndex etc etc all these things we get because of prototype.
+// remember i hant defined it inside the object but still i got access to it
+
+let user = {
+    name:'deepak',
+    fullname:'deepak kumar nayak',
+    course: 'Javascript Ineuron 2.0'
+}
+
+// i can normally access name by writting 
+console.log(user.course)
+// i can also get some other properties/methods like 
+// hasOwnProperty()
+// isPrototypeOf()
+// propertyIsEnumerable()
+// toLocaleString()
+// toString()
+// valueOf()
+// __defineGetter__()
+// __defineSetter__()
+// __lookupGetter__()
+// __lookupSetter__()
+
+// all of these we get because of prototype function
+
+// let learn some more with the help of an array:
+
+let arrayOne = [1,2,3,4,5,6,7,8,9,10]
+
+// so while working wih an array the methods like push pop 
+// splice slice all these methods we get because of prototype.
+
+// all these methods were being added automatically suppose 
+// lets say we have defined a variable usename and inside that 
+// we have stored some value inside it 
+
+// now what we cab do we can check its length
+// username.length all these functions or methods were being added
+// thats where the prototype comes into action.
