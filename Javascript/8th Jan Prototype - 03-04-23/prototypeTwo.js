@@ -120,3 +120,23 @@ let arrayOne = [1,2,3,4,5,6,7,8,9,10]
 
 // protoptype can be used in function, string, array
 // prototype is a mechanism by which javascript Objects inherit features from one another.
+
+let student = {
+    name : 'deepak',
+    lastname : 'nayak',
+    getFullname: function(){
+        return `${this.name} ${this.lastname}`
+    },
+    batchName : 'Fullstack Javascript 2.0',
+    getbatchName : function(){
+        return `${this.batchName}`
+    }
+}
+
+let teacher = {
+    name : 'Anurag Sir',
+    batchName : 'Fullstack Javascript 2.0',
+    getbatchName : function(){
+        return `${this.batchName}`
+    }
+}
