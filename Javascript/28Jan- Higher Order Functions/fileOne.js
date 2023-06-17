@@ -219,3 +219,16 @@ for (let i of info.values()){
 for(let [key, value] of info){
   console.log(key, ":-", value)
 }
+
+
+const laptopName = {
+  laptopOne : 'Dell',
+  laptopTwo : 'Lenevo',
+  laptopThee : 'Apple',
+  laptopFour : 'Acer'
+
+}
+
+for(let i in laptopName){
+  console.log(i, ":" ,laptopName[i])
+}
