@@ -207,3 +207,15 @@ info.set('b', 'rahul')
 info.set('c', 'aly')
 
 console.log(info)
+
+for(let i of info.keys()){
+  console.log(i)
+}
+
+for (let i of info.values()){
+  console.log(i)
+}
+
+for(let [key, value] of info){
+  console.log(key, ":-", value)
+}
