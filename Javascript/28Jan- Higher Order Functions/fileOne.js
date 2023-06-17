@@ -190,3 +190,20 @@ console.log(sum(...vari))
 
 const aray = [1,2,3,4,5,6,7,8,9,10] 
 aray.forEach(num=>console.log(num*2))
+
+//Maps : maps usually known for its uniqueness duplicates are not allowed insertion order will be preserved
+// in which order you have inserted we will get the result in the same order. 
+
+// i can pass the value multiple times , the values can be duplicate but the key cannot be 
+// i can still pass the value with 
+// info.set('d', 'deepak')
+//   but 
+// i cannot pass the value with 
+// info.set('a','deepak')
+
+const info = new Map()
+info.set('a', 'deepak')
+info.set('b', 'rahul')
+info.set('c', 'aly')
+
+console.log(info)
