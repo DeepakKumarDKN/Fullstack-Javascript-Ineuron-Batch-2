@@ -250,3 +250,37 @@ coding.forEach((item)=>{
   //console.log(item)
 })
 
+// another example for forEach 
+
+const studentsInfo = [
+  {
+    studentName: 'Deepak Kumar',
+    city: 'India',
+    email: 'deepak@gmail.com',
+    profession: 'Fullstack Developer'
+  },
+  {
+    studentName: 'Aly Goni',
+    city: 'India',
+    email: 'alygoni@gmail.com',
+    profession: 'Artist'
+  },
+  {
+    studentName: 'Rahul Krishna Vaidya', 
+    city: 'India',
+    email: 'rahul@gmail.com',
+    profession: 'Singer'
+  },
+  {
+    studentName: 'Jasmine',
+    city: 'India',
+    email: 'jasmine@gmail.com',
+    profession: 'Artist'
+  }
+]
+
+studentsInfo.forEach((item)=>{
+  if(item.studentName.length>10){
+    console.log(item.studentName)
+  }
+})
