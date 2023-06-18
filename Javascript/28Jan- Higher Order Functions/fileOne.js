@@ -10,7 +10,7 @@
 
 
 const callback = (n)=>{
-  return n**2
+  //return n**2
 }
 
 
@@ -170,7 +170,7 @@ const playerNames = ['Virat','Surya','Rohit','Bumrah','Siraj']
 // Skip any value 
 
 let[Batsmen ,, OpeningBatsmen ,,  SwingBowler ] = playerNames
-console.log(OpeningBatsmen)
+//console.log(OpeningBatsmen)
 
 
 //TODO: Spread and Rest
@@ -180,16 +180,16 @@ console.log(OpeningBatsmen)
 // sending some data and while sending some data all or data will get expanded so at that time we have to use spread operator
 
 function sum(x,y){
-  return x+y
+  //return x+y
 }
 
 let vari = [1,2]
-console.log(sum(...vari))
+//console.log(sum(...vari))
 
 // Higher order function example 
 
 const aray = [1,2,3,4,5,6,7,8,9,10] 
-aray.forEach(num=>console.log(num*2))
+//aray.forEach(num=>console.log(num*2))
 
 //Maps : maps usually known for its uniqueness duplicates are not allowed insertion order will be preserved
 // in which order you have inserted we will get the result in the same order. 
@@ -206,18 +206,18 @@ info.set('a', 'deepak')
 info.set('b', 'rahul')
 info.set('c', 'aly')
 
-console.log(info)
+//console.log(info)
 
 for(let i of info.keys()){
-  console.log(i)
+  //console.log(i)
 }
 
 for (let i of info.values()){
-  console.log(i)
+  //console.log(i)
 }
 
 for(let [key, value] of info){
-  console.log(key, ":-", value)
+  //console.log(key, ":-", value)
 }
 
 
@@ -230,5 +230,23 @@ const laptopName = {
 }
 
 for(let i in laptopName){
-  console.log(i, ":" ,laptopName[i])
+  //console.log(i, ":" ,laptopName[i])
 }
+
+// forEach is also used in array, we can use for of loop as well.
+// for in is used in objects
+
+
+const coding = ['javascript','python','c','c++','laravel','ruby']
+const result = coding.forEach(function(elem){
+  //console.log(elem)
+})
+
+
+
+//arrow function for forEach
+
+coding.forEach((item)=>{
+  //console.log(item)
+})
+
