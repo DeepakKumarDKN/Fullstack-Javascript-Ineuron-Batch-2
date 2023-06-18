@@ -238,9 +238,9 @@ for(let i in laptopName){
 
 
 const coding = ['javascript','python','c','c++','laravel','ruby']
-const result = coding.forEach(function(elem){
+//const result = coding.forEach(function(elem){
   //console.log(elem)
-})
+//})
 
 
 
@@ -281,6 +281,17 @@ const studentsInfo = [
 
 studentsInfo.forEach((item)=>{
   if(item.studentName.length>10){
-    console.log(item.studentName)
+    //console.log(item.studentName)
   }
 })
+
+
+
+// chaining
+
+const nums = [10,20,30,40,50,60,70,80,90]
+const result = nums
+              .map((n)=>{ return n * 2})
+              .filter((n)=>{ return n % 3 ==0})
+
+console.log(result)
