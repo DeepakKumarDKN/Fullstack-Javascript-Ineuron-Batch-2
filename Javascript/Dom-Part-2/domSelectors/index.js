@@ -68,3 +68,38 @@ console.log(getText)
 
 //Output
 //Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Adipisci ex beatae, inventore eius voluptatibus omnis!
+
+// Inner HTML support the html tags
+
+const getTextWithInnerHtml = document.getElementById('headingTwo').innerHTML
+console.log(getTextWithInnerHtml)
+
+//Output 
+//Lorem ipsum, dolor sit amet consectetur adipisicing elit. <span style="display:none"> Adipisci ex beatae, inventore eius voluptatibus omnis!</span>
+
+// working with query selector
+
+const getwithH1 = document.querySelector('h1').innerText
+const getwithH4 = document.querySelector("h4").innerText
+console.log(getwithH1)
+console.log(getwithH4)
+
+// queryselectorall will give you all the elements belong to h1
+// we can also use query selector for class and id 
+
+const getwithID = document.querySelector('#one')
+console.log(getwithID)
+
+const getwithClass = document.querySelector('.two')
+console.log(getwithClass)
+
+const getallofh2 = document.querySelectorAll('h2')
+console.log(getallofh2)
+
+for(let i of getallofh2){
+    console.log(i.style.fontFamily = "Poppins")
+    console.log(i.style.fontSize = "15px")
+}
+
+
+
