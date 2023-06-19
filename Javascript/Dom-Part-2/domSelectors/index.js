@@ -101,5 +101,8 @@ for(let i of getallofh2){
     console.log(i.style.fontSize = "15px")
 }
 
+//Note 
+// For node list try to use forEcah because Node list is not an array 
+// But still if you want to use it then you have to convert the Nodelist into an array and then we can use map. 
 
 
