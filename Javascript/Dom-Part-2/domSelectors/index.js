@@ -105,4 +105,32 @@ for(let i of getallofh2){
 // For node list try to use forEcah because Node list is not an array 
 // But still if you want to use it then you have to convert the Nodelist into an array and then we can use map. 
 
+const getEleByClassName = document.getElementsByClassName('list')
+for(let i of getEleByClassName){
+    i.style.color = "red"
+    i.style.fontFamily = "Poppins"
+    i.style.fontSize = "12px"
+    i.style.listStyleType = "none"
+}
 
+// in the above example we will get HTML Collections whwre we cannot use forEach.
+// but we can cponvert it into an array by writting 
+// Array.from(getEleByClassName)
+
+// here getEleByClassName is the variable name. 
+// lets do it with an another example. 
+
+const convertH5 = document.querySelector('h5')
+convertH5.style.fontFamily = "Poppins"
+convertH5.style.fontWeight = 500
+
+const spanElement = document.querySelector('h5 span')
+spanElement.style.color = "yellow"
+
+const convertIntoArray = document.getElementsByClassName('playersName')
+
+const convertitnowintoArray = Array.from(convertIntoArray)
+convertitnowintoArray.forEach((player)=>{
+    player.style.listStyleType = "none",
+    player.style.fontFamily = "Poppins"
+})
