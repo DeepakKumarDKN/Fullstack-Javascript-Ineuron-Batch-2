@@ -294,4 +294,28 @@ const result = nums
               .map((n)=>{ return n * 2})
               .filter((n)=>{ return n % 3 ==0})
 
-console.log(result)
+//console.log(result)
+
+// reduce 
+
+const myNums = [1,2,3,4,5,6,7,8,9,10]
+const myTotal = myNums.reduce((acc,n)=>{return acc+n},1)
+//console.log(myTotal)
+
+const ShoppingCart = [
+  {
+    item1: 'Pen',
+    price: 100
+  },
+  {
+    item2: 'Carrom Board',
+    price: 800
+  },
+  {
+    item3: 'Pencil',
+    price: 50
+  }
+]
+
+const shoppingPrice = ShoppingCart.reduce((acc,item)=>{return acc+item.price},0)
+console.log(shoppingPrice)
