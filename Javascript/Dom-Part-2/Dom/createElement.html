@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Remove Add Element</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- <script src="/create.js" defer></script> -->
+</head>
+<style>
+    body{
+        background-color: black;
+        color: rgb(236, 228, 228);
+        font-family: "Poppins";
+        }
+</style>
+<body>
+   <!-- <h3 class="title">Event Listener For Click</h3> -->
+   <h3 class="title">Event Listener for Double Click - (Double Click Here)</h3>
+
+    <script>
+        // document.addEventListener('click', Hello)
+        // function Hello(){
+        //     const value = document.querySelector('.title')
+        //     value.innerText = "Click Event Listener"
+        //     value.style.color = "red"
+        // }
+
+        document.addEventListener('dblclick', Hello)
+        function Hello(){
+            const value = document.querySelector('.title')
+            value.textContent = "hello"
+            value.style.color = 'red'
+        }
+    </script>
+</body>
+</html>
