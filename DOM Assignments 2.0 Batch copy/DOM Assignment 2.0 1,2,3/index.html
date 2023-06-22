@@ -88,32 +88,11 @@
     </footer>
 
     <script>
+      // search my projects
+      const search = document.querySelector('.search-field')
+      const firstChild = search.firstElementChild
+      firstChild.placeholder = "Search My Projects"
 
-      // changed contact to projects
-      
-      const nav = document.querySelectorAll('nav ul li')
-      nav[2].textContent = "Projects"
-
-      //adding one element Hire Me
-
-      const ul = document.querySelector("nav ul")
-      const createElem = document.createElement('li')
-      createElem.innerHTML = '<a href="https://www.linkedin.com/in/deepak-kumar-nayak-555188261/">Hire Me</a>'
-      ul.append(createElem)
-
-      //remove footer section
-
-      
-     const footerElem = document.querySelector('footer ul')
-     const getelem = footerElem.getElementsByTagName('li')
-     const convertToArray = Array.from(getelem)
-
-     for(let i=0; i<convertToArray.length; i++){
-      convertToArray[i].remove()
-     }
-    
-
-     
     </script>
   </body>
 </html>

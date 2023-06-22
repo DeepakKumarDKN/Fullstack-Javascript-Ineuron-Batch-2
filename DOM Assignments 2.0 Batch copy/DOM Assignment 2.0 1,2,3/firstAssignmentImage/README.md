@@ -29,3 +29,18 @@ for(let i=0; i<convertToArray.length; i++){
 **After**
 ![Image](./task1Output.png)
 
+
+# Task Two !!
+
+**Before**
+![Image](./Images/Project%20One%20Before%20Image.png)
+
+**Changes Made**
+* Search My Projects Added
+```
+const search = document.querySelector('.search-field')
+const firstChild = search.firstElementChild
+firstChild.placeholder = "Search My Projects"
+```
+
+
