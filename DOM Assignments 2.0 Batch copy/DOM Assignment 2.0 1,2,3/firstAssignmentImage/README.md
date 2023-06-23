@@ -43,4 +43,22 @@ const firstChild = search.firstElementChild
 firstChild.placeholder = "Search My Projects"
 ```
 
+**After**
+![image](./task2Output.png)
 
+# Task Three
+![Output Image](./task3Output.png)
+
+Changes Made:
+
+```
+const nav = document.querySelectorAll('nav ul li')
+nav[2].textContent = "Projects"
+```
+
+```
+const empadd = document.querySelectorAll('.hero-left-section span')
+empadd[2].textContent = "an Employee"
+empadd[3].textContent = "iNeuron Intelligence Pvt Ltd"
+
+```
