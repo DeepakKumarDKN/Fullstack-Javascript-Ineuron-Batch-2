@@ -62,3 +62,26 @@ empadd[2].textContent = "an Employee"
 empadd[3].textContent = "iNeuron Intelligence Pvt Ltd"
 
 ```
+# Task Four
+Output Image
+-
+![Image](./task4Output.png)
+Changes Made for Image section
+
+```
+const imageChange = document.querySelector('.hero-right-section img')
+imageChange.src="https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg"
+```
+
+# Task 5
+Output Image
+-
+![Image](./task5Output.png)
+
+```
+const btn = document.querySelector('.hero-right-section-btns')
+const createBtn = document.createElement('button')
+btn.append(createBtn)
+
+createBtn.textContent = "Support Me"
+```
