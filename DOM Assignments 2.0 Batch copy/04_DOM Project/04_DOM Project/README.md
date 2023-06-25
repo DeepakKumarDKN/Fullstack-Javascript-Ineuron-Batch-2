@@ -46,7 +46,7 @@ changeFtColor.forEach((font)=>{
 })
 ```
 
-_Background color and Font Color Changed For The Giant Section_
+_Background color and Font Color Changed For The **[ Giant ]**_
 
 ```javascript
 const getGiantSection = getWrapper[2]
