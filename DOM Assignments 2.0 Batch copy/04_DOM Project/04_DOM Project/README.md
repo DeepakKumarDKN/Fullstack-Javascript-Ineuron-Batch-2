@@ -19,7 +19,7 @@ const changeGlobinName = getGoblin.getElementsByTagName('div')
 changeGlobinName[3].textContent = "The Goblin"
 ```
 
-_Background color and Font Color Changed For The Barbarian_
+_Background color and Font Color Changed For **[ The Barbarian ]**_
 
 ```javascript
 const getBarbianSection = getWrapper[0]
@@ -32,7 +32,7 @@ changeFontColor.forEach((font)=>{
 })
 ```
 
-_Background color and Font Color Changed For The Archer_
+_Background color and Font Color Changed For **[ The Archer ]**_
 
 ```javascript
 const getArcherSection = getWrapper[1]
@@ -61,7 +61,7 @@ changeGiantFtColor.forEach((font)=>{
 
 ```
 
-_Background color and Font Color Changed For The Giant Section_
+_Background color and Font Color Changed For The **[ Goblin Section ]**_
 
 ```javascript
 const getGoblinSection = getWrapper[3]
@@ -76,7 +76,7 @@ changeGoblinFtColor.forEach((font)=>{
 
 ```
 
-_Background color and Font Color Changed For The Wizard Section_
+_Background color and Font Color Changed For The **[ Wizard Section ]**_
 
 ```javascript
 const getWizardSection = getWrapper[4]
