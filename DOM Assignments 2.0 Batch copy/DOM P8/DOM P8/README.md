@@ -1,4 +1,8 @@
 **Solution One Added**
+
+_Output Image_
+![Image](./ass8.1-after.png)
+
 ```javascript
 const getAside = document.querySelector('.new')
 getAside.style.overflowX = "scroll"
@@ -22,6 +26,9 @@ getAside.append(create_pTag)
 
 
 **Solution Two Added**
+
+_Output Image_
+![Image](./ass8.2-after.png)
 ```javascript
 const removeBackground = document.querySelector('body')
 removeBackground.style.backgroundImage = 'none'
