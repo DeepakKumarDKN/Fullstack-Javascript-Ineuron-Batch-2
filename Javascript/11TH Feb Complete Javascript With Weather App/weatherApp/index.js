@@ -30,4 +30,9 @@ const getData = async (event) => {
     countryName.innerHTML = data.location.country;
     stateName.innerHTML = data.location.region;
     cityName.innerHTML = data.location.name
+    humidity.innerHTML = data.current.humidity
+    windSpeed.innerHTML = data.current.wind_kph
+    temprature.innerHTML = data.current.temp_c
+    logoImage.src = data.current.condition.icon
+
 }
