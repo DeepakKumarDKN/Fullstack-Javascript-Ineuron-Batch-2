@@ -69,3 +69,11 @@ makePromise.then((result)=>{
 }).catch((result)=>{
     console.log(result)
 })
+
+// Fetch Api 
+
+const url = 'https://restcountries.com/v3.1/all'
+fetch(url)
+.then((response)=>{return response.json()})
+.then((data)=>{return console.log(data)})
+.catch((error)=>{return console.log(error)})
