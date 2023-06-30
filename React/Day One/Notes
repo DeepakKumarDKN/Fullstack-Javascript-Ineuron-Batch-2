@@ -1,0 +1,33 @@
+Reactjs or React or React.js
+
+A javascript Library for building User Interface (UI)
+------------------------------------------------------
+Created By Jordan Walke(Software Engineer at Facebook)
+Released in the Year 2013
+Maintained By Facebook
+
+Why React 
+---------
+React Works On Component Based Approach
+    .Suppose i m creating a navbar so the whole navbar will become one Component
+    . so whenever we want to use the component we can just call the component and 
+        things will work perfectly
+
+Reusable Code
+    .Creating the component once and using it again and again .
+
+Dom updated are Handled Gracefully
+
+Learn Once and Write Anywhere 
+
+Babel 
+-----
+Babel is a library it convert your jsx to pure javascript and latest version of javascript to pure older version 
+which have been suppoted by everyone.
+
+
+const name = "Anurah Tiwari"  // pure javascript.
+<h1>Anurag Tiwari</h1> // pure html element.
+
+const name = <h1>Anurag Tiwari</h1> // JSX Element.
+
