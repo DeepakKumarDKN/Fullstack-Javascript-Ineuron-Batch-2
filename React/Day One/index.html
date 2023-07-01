@@ -16,9 +16,33 @@
 
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/babel">
-        const rootElement = document.querySelector(".root");
-        const element = <h1>Fullstack Javascript 2.0</h1>;
-        ReactDOM.render(element, rootElement)
+    const rootElement = document.querySelector('.root')
+    const css = {color: "red"}
+        const header = (
+            <header style={css}>
+                <h1>Fullstack Javascript 2.0</h1>
+            </header>
+        );
+
+        const main = (
+            <main>
+            <p>Lorem ipsum dolor sit amet.</p>
+            </main>
+        );
+
+
+       
+        const footer = (
+            <footer>
+                <p>Made By React</p>
+            </footer>
+        );
+
+        const app = 
+        <>
+            {header} {main} {footer}
+        </>
+        ReactDOM.render(app, rootElement)
     </script>
 </body>
 </html>
