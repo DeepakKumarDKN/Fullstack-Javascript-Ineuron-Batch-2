@@ -31,3 +31,15 @@ const name = "Anurah Tiwari"  // pure javascript.
 
 const name = <h1>Anurag Tiwari</h1> // JSX Element.
 
+npm and npx both are tool which are used for creating / setup an react project
+
+using npx we can execute an package directly no need of installing.
+
+whereas in case of npm we have to globally install it so that we can run our project , we have to install all the packages 
+
+so basically if i want to use an package directly wothout installing it in our system then for that i have to use npx. 
+
+
+npx create-react-app .
+
+
