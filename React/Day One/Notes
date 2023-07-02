@@ -31,6 +31,9 @@ const name = "Anurah Tiwari"  // pure javascript.
 
 const name = <h1>Anurag Tiwari</h1> // JSX Element.
 
+npm - node package maaneger
+npx - node package executor
+
 npm and npx both are tool which are used for creating / setup an react project
 
 using npx we can execute an package directly no need of installing.
