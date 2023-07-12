@@ -1,25 +1,65 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+
+function SuperHeros(){
+  let [hero, setHero] = useState(['SpiderMan', 'SuperMan', 'Hulk'])
+  const [name, setName] = useState(()=> "antman")
+
+  let addName = () => {
+    setHero([...hero, name])
+    setName("")
+  }
+
+  return (
+    <div>
+        <ul>
+          {
+          hero.map((h)=>(
+          <li key={h}>{h}</li>
+          ))}
+        </ul>
+        <input
+          type= "text"
+          value = {name}
+          onChange = {(e) => setName(e.target.value)}
+        />
+
+        <button onClick={addName}>
+          Add Value
+        </button>
+    </div>
+  )
+}
+
+
+function Counter(){
+  let [count, setCount] = useState(10)
+
+  function oneUp(){
+    setCount(count + 1)
+  }
+  return( 
+  <div>
+    <button
+      onClick = {oneUp}
+      > Count : {count}
+    </button>
+   <SuperHeros />
+  </div>
+  )
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Hello World</h1>
+      <Counter />
+    </>
+    
   );
 }
 
 export default App;
+
+
