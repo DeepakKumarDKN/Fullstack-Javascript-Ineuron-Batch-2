@@ -5,9 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./file.js"></script>
+    <script src="./eventListener.js" defer></script>
 </head>
+<style>
+    .list-items{
+        display:flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .list-items li{
+        list-style-type: none;
+    }
+    .list-items img{
+        border: 2px solid white;
+    }
+    body{
+        background-color: black;
+        color:rgb(235, 7, 7);
+    }
+</style>
 <body>
-    
+    <h1>Images Gallery</h1>
+    <div class="image-container">
+        <ul class="list-items">
+            <li><img src="https://images.pexels.com/photos/17307127/pexels-photo-17307127/free-photo-of-sunset-sunlight-over-leaves-on-bare-branches.jpeg?auto=compress&cs=tinysrgb&w=260&h=750&dpr=1" alt="" id="imageOne"></li>
+            <li><img src="https://images.pexels.com/photos/17307127/pexels-photo-17307127/free-photo-of-sunset-sunlight-over-leaves-on-bare-branches.jpeg?auto=compress&cs=tinysrgb&w=260&h=750&dpr=1" alt="" id="imageTwo"></li>
+            <li><img src="https://images.pexels.com/photos/17307127/pexels-photo-17307127/free-photo-of-sunset-sunlight-over-leaves-on-bare-branches.jpeg?auto=compress&cs=tinysrgb&w=260&h=750&dpr=1" alt="" id="imageThree"></li>
+            <li><img src="https://images.pexels.com/photos/17307127/pexels-photo-17307127/free-photo-of-sunset-sunlight-over-leaves-on-bare-branches.jpeg?auto=compress&cs=tinysrgb&w=260&h=750&dpr=1" alt="" id="imageFour"></li>
+            <li><img src="https://images.pexels.com/photos/17307127/pexels-photo-17307127/free-photo-of-sunset-sunlight-over-leaves-on-bare-branches.jpeg?auto=compress&cs=tinysrgb&w=260&h=750&dpr=1" alt="" id="imageFive"></li>
+        </ul>
+    </div>
 </body>
 </html>

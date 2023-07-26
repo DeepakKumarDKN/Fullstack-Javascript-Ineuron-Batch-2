@@ -205,3 +205,8 @@ i have created and inner function.
 
 in line number 151 the outer function is returning the inner function.
 so it is clear that a function can return another function.
+
+
+Promises 
+---------
+Promises are used to handle async operations in javascript,
