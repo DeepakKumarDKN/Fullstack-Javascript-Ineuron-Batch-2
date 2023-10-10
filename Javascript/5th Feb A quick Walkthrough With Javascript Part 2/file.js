@@ -74,35 +74,60 @@ result()
 
 // Closure Example Three
 
- function FullName(firstname,lastname){
-     function printFullName(){
-         console.log(`${firstname} ${lastname}`)
-     }
-     return printFullName
- }
+// function FullName(firstname,lastname){
+//     function printFullName(){
+//         console.log(`${firstname} ${lastname}`)
+//     }
+//     return printFullName
+// }
 
-let result = FullName('Deepak Kumar','Nayak')
-result()
+// let result = FullName('Deepak Kumar','Nayak')
+// result()
 
-function greeting(message) {
-    return function(name){
-         console.log(message,name)
-    }
- }
- let sayHi = greeting('Hi');
- let sayHello = greeting('Hello');
+// function greeting(message) {
+//     return function(name){
+//          console.log(message,name)
+//     }
+//  }
+//  let sayHi = greeting('Hi');
+//  let sayHello = greeting('Hello');
 
- sayHi('John')
- sayHello('Deepak')
+//  sayHi('John')
+//  sayHello('Deepak')
 
-function counter(){
-    let count = 0;
+// function counter(){
+//     let count = 0;
 
-    function calculate(){
-        console.log(count+1)
-    }
-    return calculate
-}
+//     function calculate(){
+//         console.log(count+1)
+//     }
+//     return calculate
+// }
 
-result = counter()
-result()
+// result = counter()
+// result()
+
+// Examples Higher Order Array Loops
+
+// const array = [1,2,3,4,5,6]
+
+// for of loop
+// for(let i of array){
+//     console.log(i)
+// }
+
+//for in loop
+// for(let i in array){
+//     console.log(array[i])
+// }
+
+// const name = "deepak kumar nayak"
+// for(let i of name){
+//     if(i === ' '){
+//         continue;
+//     }
+//     else{
+//         console.log(i)
+//     }
+// }
+
