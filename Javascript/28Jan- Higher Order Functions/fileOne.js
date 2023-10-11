@@ -9,9 +9,9 @@
 // so callback function can also be passed as a parameter inside anoter funtion
 
 
-const callback = (n)=>{
-  //return n**2
-}
+// const callback = (n)=>{
+//   return n**2
+// }
 
 
 
@@ -21,6 +21,21 @@ const callback = (n)=>{
 // }
 
 // console.log(cube(callback,2))
+
+
+function displayDetails(name, fullname, gmail){
+  return `the details of the Employee is: 
+   Name:  ${name},
+   Fullaname:  ${fullname}
+   gmail:  ${gmail}        
+  `
+}
+
+function displayData(displayDetails){
+  return displayDetails
+}
+
+//console.log(displayData(displayDetails('deepak','deepak kumar nayak','deepak@gmail.com')))
 
 /*
 
@@ -119,13 +134,30 @@ const data = [
 // })
 
 // filter only those companynames whose length is greater than 6
-// const filternames = data.filter((company)=>{
-//   if(company.companyName.length>=6){
-//     return company
-//   }
-// })  
+const filternames = data.filter((data)=>{
+  if(data.companyName.length>=6){
+    // console.log(data.companyName)
+  }
+})  
 
-// console.log(filternames)
+// filter with return
+
+const filter_name = data.filter(function(data){
+  if(data.companyName.length >=6){
+    return `${data.companyName}`
+  }
+})
+
+//console.log(filter_name)
+
+const companyRevenue = data.filter((data)=>{
+  if(data.companyRevenue >= 1200000){
+    return `${data.companyName}`
+  }
+})
+
+console.log(companyRevenue)
+
 
 // return will gives you an entire array but instead of printing array if you want to print 
 // only names of the company then instead of returing we can gor for print.
@@ -318,4 +350,4 @@ const ShoppingCart = [
 ]
 
 const shoppingPrice = ShoppingCart.reduce((acc,item)=>{return acc+item.price},0)
-console.log(shoppingPrice)
+//console.log(shoppingPrice)
