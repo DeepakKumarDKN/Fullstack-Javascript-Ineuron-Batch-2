@@ -1,3 +1,20 @@
+//Spread and rest
+//----------------
+
+function displayNumbers(...a){
+  for(let i in a){
+   // console.log(a[i])
+  }
+}
+
+let numbers = [10,20,30,40,50,60,70]
+displayNumbers(...numbers) // spread
+
+// spread is used during sending data /multiple data inside the parenthesis using 3 dots
+// rest is used during receiving the data inside the parenthesis using 3 dots here dot 
+// sign is used in both rest and spread.
+
+
 //syntax for try and catch
 
 // try{
@@ -66,13 +83,13 @@ const three = () =>{
 
 const results = async () =>{
   let valOne = one()
-  console.log(valOne)
+  //console.log(valOne)
 
   let valTwo = await two()
-  console.log(valTwo)
+  //console.log(valTwo)
 
   let valThree = three()
-  console.log(valThree)
+  //console.log(valThree)
 }
 
 results()
@@ -99,3 +116,6 @@ results()
 // One()
 // Two()
 // three()
+
+
+console.log('Anurag')
