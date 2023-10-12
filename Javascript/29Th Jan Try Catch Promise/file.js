@@ -118,4 +118,3 @@ results()
 // three()
 
 
-console.log('Anurag')
