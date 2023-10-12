@@ -59,6 +59,18 @@ displayData(50,60, sayHi)
 
 */
 
+
+//filter example
+
+const teamNames = ['India','Pakistan','Australia','Newzealand', 'England','Ireland','Bangladesh','South Africa','WestIndies','Srilanka']
+
+const res = teamNames.filter((names)=>{
+  return names.includes('land')
+})
+
+console.log(res)
+
+
 //forEach Example
 
 // const arr = ['Hey','Hi','Hello','Hola','Namastey']
@@ -156,7 +168,9 @@ const companyRevenue = data.filter((data)=>{
   }
 })
 
-console.log(companyRevenue)
+//console.log(companyRevenue)
+
+
 
 
 // return will gives you an entire array but instead of printing array if you want to print 
@@ -171,7 +185,10 @@ console.log(companyRevenue)
 
 
 // reduce
-// Reduce takes a callback function. The callback Function takes the accumulator, current and optional initial value as a parameter and returns a single value. It is good practcise to define an initial value for the accumulator value. if we donot specify this parameter bu default accumulator will get aray first value, if our array is an empty aray then Javascript will throw and error
+// Reduce takes a callback function. The callback Function takes the accumulator, current and 
+// optional initial value as a parameter and returns a single value. It is good practcise to 
+// define an initial value for the accumulator value. if we donot specify this parameter by
+// default accumulator will get aray first value, if our array is an empty aray then Javascript will throw and error
 
 // const num = [10,20,30,40,50]
 // const sum = num.reduce((acc,curr)=>{
