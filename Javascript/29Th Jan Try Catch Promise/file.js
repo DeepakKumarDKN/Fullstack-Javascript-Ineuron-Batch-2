@@ -65,54 +65,65 @@ Aggregate Error
 // i need to wait for the credentials.
 
 
-// const one = () =>{
-//   return 'one'
-// }
+const one = () =>{
+  return new Promise((resolve,reject) => {
+    setTimeout(()=>{
+      resolve('index Page')
+    },1000)
+  })
+}
 
-// const two = () =>{
-//   return new Promise((resolve,reject) =>{
-//     setTimeout(()=>{
-//       resolve('credit credential')
-//     }, 3000)
-//   })
-// }
+const two = () =>{
+  return new Promise((resolve,reject) =>{
+    setTimeout(()=>{
+      resolve('credit credential')
+    }, 1000)
+  })
+}
 
-// const three = () =>{
-//   return 'three'
-// }
+const three = () => {
+  return new Promise(function(resolve,reject){
+    setTimeout(()=>{
+      resolve('Home Page')
+    },1000)
+  })
+}
 
-// const results = async () =>{
-//   let valOne = one()
-//   //console.log(valOne)
 
-//   let valTwo = await two()
-//   //console.log(valTwo)
 
-//   let valThree = three()
-//   //console.log(valThree)
-// }
 
-// results()
+const results = async () =>{
+  let valOne = await one()
+  console.log(valOne)
+
+  let valTwo = await two()
+  console.log(valTwo)
+
+  let valThree = await three()
+  console.log(valThree)
+}
+
+results()
 
 
 // TODO Event loop
 
 
 function One(){
-  console.log('one')
+  //console.log('one')
 }
 
 function Two(){
   setTimeout(() => {
-    console.log('Inside set timeoute printing afte 3sec')
+    //console.log('Inside set timeoute printing afte 3sec')
   },3000);
-  console.log('I am from function two')
+ // console.log('I am from function two')
 }
 
-function three(){
-  console.log('I am from function three')
-}
-
+//function three(){
+  //console.log('I am from function three')
+//}
+``
 One()
 Two()
 three()
