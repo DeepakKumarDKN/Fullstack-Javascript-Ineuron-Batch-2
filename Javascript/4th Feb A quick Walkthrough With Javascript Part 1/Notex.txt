@@ -1,0 +1,130 @@
+Datatype => Primitive and Non Primitive
+---------------------------------------
+Primitive Datatype:
+-------------------
+    Number
+    String
+    Boolean
+    Null 
+    Undefined 
+    Bigint
+
+    Primitive Datatype : evything thing is being gien a diffrent memory. 
+    for example we hae declared a variable 
+
+    let a - 10 
+    let b = a
+
+    so here a and b will be given diffrent memory and remember one thing that all the primitive datatypes 
+    are getting stored inside the Stack. so lets gets back into the example, in this example if i will do any  
+    changes to a suppose i will increase the value of a but the changes will be made only on a not on because
+    everyone will be sharing a diffrent memory. 
+
+    let a = 10 
+    let b = a;  copy of a will be assigned to b.
+    a = a+1
+    console.log(a) => 11
+    console.log(b) => 10
+
+    same goes for the string as well string also behave in the same way. 
+
+
+    
+Non-Primitive
+-------------
+    Array 
+    Objects
+    Function
+
+    example: 
+    ---------
+    let arrayOne = [10,20,30,40]
+    let arrayTwo = arrayOne; 
+
+    arrayOne.push(90)
+
+    console.log(arrayOne) => [ 10, 20, 30, 40, 90 ]
+    console.log(arrayTwo) => [ 10, 20, 30, 40, 90 ]
+
+    in this example if i am doing any changes to the arrayOne all the changes are being reflected into arrayTwo. 
+    all the non-primitive values are getting stored inside the heap whereas all the  primiie values are getting stored inside the stack.
+
+
+use strict:
+-----------
+use strict is basically used to avoid mistakes because there are some sets of rules and regulation which  we need to follow 
+while writnng the code and is good to follow that for godd practises so yse strict will stop you from making mistakes.
+
+everything will be checked very strictly. 
+
+function sum(a,b){
+    add = a+b  // we will get error here for using strict that add is not defined
+    console.log(add)
+}
+
+sum(10,20)
+
+----------------------------------------------------------------------------------------------------------------------------------
+Javascript interpolation or Teamplate Literal
+----------------------------------------------
+console.log(`${nameofthevariable}`)
+
+--
+Operators
+----------
+- logical operators 
+- Arithemetic Operator 
+- Comparision operators
+- Ternary Operator
+
+// Conditions 
+--------------
+if else
+ternary 
+swith case
+
+let bankAccount = true: 
+if(bankAccount){
+    console.log('you deposit your money here')
+}else{
+    console.log('Open an Account First)
+}
+
+switch case 
+-----------
+let laptop = "Dell" 
+
+switch(laptop){ 
+    case "Hp"; 
+    console.log(' i hae bought Hp Laptop)
+}
+
+
+let laptop = "Dell" 
+
+switch(laptop){ 
+    case "Hp":
+    console.log(' i have bought Hp Laptop')
+    break 
+
+    case "Dell": 
+    console.log(' i hae brought dell laptop')
+    break
+
+    case "Apple": 
+    console.log('i have bought apple laptop')
+    break
+
+    default: 
+    console.log('Laptop is yet to buy')
+  
+}
+
+Ternary Operator: 
+---------------
+condition ? True : False
+
+
+var hello = "op0"
+
+hello == "hey" ? console.log('fsjs2'): console.log('fsjs1')

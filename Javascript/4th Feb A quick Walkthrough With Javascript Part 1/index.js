@@ -4,13 +4,15 @@
   node js is a runtime which allow us to write our javascript code
   so first of all javascript was intitially made to run in the browser but 
   
-  RAYAN DHAL Litereaaly toook everything from the browser (everything mean everything that was 
+  RAYAN DHAL Litreally toook everything from the browser (everything mean everything that was 
     available for javascript) he just took everything and created 
   Nodejs runtime which is an exact environment for javascript)
 
   TODO: Cretator of nodejs is Rayan Dhal
 
-  so now node.js also can do everything which is being previously done by the browser now all those things can be done by nodejs and here we dont need any borowser for that because it is being designed in sucgh a way that where browser is not required and still we can perform all operations.
+  so now node.js also can do everything which is being previously done by the browser now all those things
+   can be done by nodejs and here we dont need any browser for that because it is being designed in such a 
+   way that where browser is not required and still we can perform all operations.
 */
 
 /* 
@@ -31,13 +33,16 @@
 
   so we can  access var surname even before initialization i mean.. 
 
-  console.log(surname)  => we are accessing it even before initialization and yes we can access it because javascript allows us to do it and the memory is being allocated to it even before single line is executed.
+  console.log(surname)  => we are accessing it even before initialization and yes we can access 
+  it because javascript allows us to do it and the memory is being allocated to it even before single line is executed.
 
   and we will not get any error infact we will get a special placeholder called undefined.
 
-  but we cannot access username here because it is being declared using let and let doesnot allow us to do it, var allows us but lt doesn't allow us.
+  but we cannot access username here because it is being declared using 
+  let and let doesnot allow us to do it, var allows us but let doesn't allow us.
 
-  in case of let we will get an error as Reference Error Cannot access 'username' before initialization so its pretty clear we can only access 'username' after we have assigned any value to it.
+  in case of let we will get an error as Reference Error Cannot access 'username' 
+  before initialization so its pretty clear we can only access 'username' after we have assigned any value to it.
 
   console.log(surname) 
   let username = "deepak";
@@ -59,7 +64,10 @@
   console.log(username)
   var address = "Kolkotta"
 
-  just look at image One we can see that both username and address both are hoisted but address is attatched into global and username is inside the Script that mean they are stored inside diffrent memory space they are not inside the global now and we cannot access it before putting some value into it/ before initializinf some value into it.:
+  just look at image One we can see that both username and address both are hoisted but
+   address is attatched into global and username is inside the Script that mean 
+   they are stored inside diffrent memory space they are not inside the global 
+   now and we cannot access it before putting some value into it/ before initializing some value into it.:
 
   Script:
     username : undefined
@@ -77,14 +85,17 @@
 
   TODO: Temporal Dead Zone
 
-  so the timetaken till the variable was hoisted and till it was initialized a value into it. that paricular time between un initialization to initialize a value into it is known as Temporal Dead Zone.
+  so the timetaken till the variable was hoisted and till it was i
+  nitialized a value into it. that paricular time between un initialization 
+  to initialize a value into it is known as Temporal Dead Zone.
 
   console.log(username)
   let username = "deepak" 
 
   var surname = "kumar"
 
-  during the temporial Dead Zone Phase we cannot access the value of username we can only access it after the temporial Dead Zone Ends.
+  during the temporial Dead Zone Phase we cannot access the value of'
+  username we can only access it after the temporial Dead Zone Ends.
 
 */
 
@@ -113,7 +124,8 @@
     const username = "deepak"
     console.log(username)
 
-    const is very strict as compared to the let because if we are declaring something with let then we can leave it by not initializing a value.
+    const is very strict as compared to the let because if we are declaring something with 
+     let then we can leave it by not initializing a value.
 
     let username; => we can write like this let will allow us to do that
 
@@ -245,11 +257,11 @@ function One(){
 
   function Two(){
     const website = "Youtube"
-    console.log(username)
+    //console.log(username)
   }
-  console.log(website)
+  //console.log(website)
 }
-two()
+//two()
 
 /*
 In this example i am using prompt this will work in borwser
@@ -293,3 +305,59 @@ let userDetails = {
 userDetails.buyCourse('Python')
 console.log(userDetails.getCourseName())
 */
+// let login = true
+// function displayDatas(){
+//   if(login === true){
+//     const name= "deepak"
+//     const fullname = "deepak kumar nayak"
+//     console.log(name)
+//     console.log(fullname)
+//   }
+//   console.log(name)
+  
+// }
+// displayDatas()
+
+
+
+
+// Todo: Null 
+//--------------
+
+// when i dont want to give any type of value for example 
+
+//let a = null;
+
+
+// let arrayOne = [10,20,30,40]
+// let arrayTwo = arrayOne; 
+
+// arrayOne.push(90)
+
+// console.log(arrayOne)
+// console.log(arrayTwo)
+
+
+let laptop = "Dell" 
+
+switch(laptop){ 
+    case "Hp":
+    console.log(' i have bought Hp Laptop')
+    break 
+
+    case "Dell": 
+    console.log(' i hae brought dell laptop')
+    break
+
+    case "Apple": 
+    console.log('i have bought apple laptop')
+    break
+
+    default: 
+    console.log('Laptop is yet to buy')
+  
+}
+
+var hello = "op0"
+
+hello == "hey" ? console.log('fsjs2'): console.log('fsjs1')
