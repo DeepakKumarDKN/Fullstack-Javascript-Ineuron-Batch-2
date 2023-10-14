@@ -128,3 +128,63 @@ condition ? True : False
 var hello = "op0"
 
 hello == "hey" ? console.log('fsjs2'): console.log('fsjs1')
+
+Array And Object:
+----------------- 
+Basic difference between array and object are array has index and values and 
+object has key and values.
+
+let names = ['deepak','rahul','aly']                   # creating an array
+let names = new Array('deepak','rahul','aly')          # creating an array
+
+Array Methods
+--------------
+Push. 
+Pop.
+Slice. 
+Splice.
+Split
+Trim
+Shift. 
+Unshift. 
+fill.
+includes. 
+indexof
+join
+lastindexOf
+reverse 
+concat
+sort
+
+Types Of Loop 
+--------------
+while
+do while.
+forLoop 
+    -forof loop  used for array
+    -forin loop  used for objects
+
+Example for forof Loop
+-----------------------
+const array = [10,20,30,40,50,60,70]
+for(let i of array){
+  console.log(i)
+}
+
+Example for forin Loop
+----------------------
+const biodata = {
+  username: 'deepak_kumar',
+  fullname: 'deepak kuma nayak',
+  job: function(){
+    console.log('working as a fullstack developer')
+  }
+}
+
+for(let i in biodata){
+  if (i === 'job'){
+    biodata[i]()
+  }else{
+    console.log(biodata[i])
+  }
+}

@@ -346,7 +346,7 @@ switch(laptop){
     break 
 
     case "Dell": 
-    console.log(' i hae brought dell laptop')
+    //console.log(' i hae brought dell laptop')
     break
 
     case "Apple": 
@@ -360,4 +360,29 @@ switch(laptop){
 
 var hello = "op0"
 
-hello == "hey" ? console.log('fsjs2'): console.log('fsjs1')
+//hello == "hey" ? console.log('fsjs2'): console.log('fsjs1')
+
+// example for forof loop (used in array)
+
+// const array = [10,20,30,40,50,60,70]
+// for(let i of array){
+//   console.log(i)
+// }
+
+// example for forin Loop (used in objects)
+
+// const biodata = {
+//   username: 'deepak_kumar',
+//   fullname: 'deepak kuma nayak',
+//   job: function(){
+//     console.log('working as a fullstack developer')
+//   }
+// }
+
+// for(let i in biodata){
+//   if (i === 'job'){
+//     biodata[i]()
+//   }else{
+//     console.log(biodata[i])
+//   }
+// }
