@@ -172,7 +172,7 @@ for(let i of array){
 }
 
 Example for forin Loop
-----------------------
+-----------------------
 const biodata = {
   username: 'deepak_kumar',
   fullname: 'deepak kuma nayak',
