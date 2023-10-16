@@ -33,3 +33,39 @@ body{
     list-style-type: none;
     margin-bottom: 1rem;
 }
+
+form input{
+    padding: 8px;
+    border:none;
+    background-color: rgba(245, 241, 241, 0.395);
+    letter-spacing: 1px;
+
+}
+
+form input::placeholder{
+    color:white
+}
+button{
+    padding: 8px;
+    border: none;
+    background-color: rgba(245, 241, 241, 0.395);
+    color:white;
+    letter-spacing: 1px;
+}
+
+.country_part{
+    display: flex;
+    gap: 1rem;
+}
+.country_part>:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: 900;
+
+}
+
+.country_part>:nth-child(2),
+.country_part>:nth-child(3){
+    display: flex;
+    align-items: self-end;
+}
+
