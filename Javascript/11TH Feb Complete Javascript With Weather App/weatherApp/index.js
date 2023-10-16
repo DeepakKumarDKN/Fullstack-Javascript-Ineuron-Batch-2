@@ -21,7 +21,7 @@ const getData = async (event) => {
 
     const city = inputBox.value;
 
-    const fetchData = await fetch(`http://api.weatherapi.com/v1/current.json?key=740837170195490f977101603232906&q=${city}`)
+    const fetchData = await fetch(`http://api.weatherapi.com/v1/current.json?key=3371bb2b4c5e4d86933111634231610&q=${city}`)
 
     const orgData = await fetchData.json();
     data = orgData;
@@ -33,6 +33,6 @@ const getData = async (event) => {
     humidity.innerHTML = data.current.humidity
     windSpeed.innerHTML = data.current.wind_kph
     temprature.innerHTML = data.current.temp_c
-    logoImage.src = data.current.condition.icon
+    logoImage.src = data.current.condition.icon 
 
 }

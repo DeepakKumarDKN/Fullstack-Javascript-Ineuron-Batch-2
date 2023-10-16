@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800;900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Urbanist';
+}
+
+body{
+    background-image: url('./images/image.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+
+}
+
+.wether-app-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+.weather-app-data{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.list_items li{
+    color:white;
+    list-style-type: none;
+    margin-bottom: 1rem;
+}

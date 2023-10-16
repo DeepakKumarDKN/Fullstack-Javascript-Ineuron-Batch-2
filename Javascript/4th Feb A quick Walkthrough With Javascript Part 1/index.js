@@ -386,3 +386,16 @@ var hello = "op0"
 //     console.log(biodata[i])
 //   }
 // }
+
+function displayName(){
+  let name = 'deepak'
+  function displaysurName(){
+    function fullData(){
+      console.log(name)
+    }
+    fullData()
+  }
+  displaysurName()
+}
+
+displayName()
