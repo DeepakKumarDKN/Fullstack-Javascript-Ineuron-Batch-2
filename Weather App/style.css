@@ -9,63 +9,136 @@
 }
 
 body{
-    background-image: url('./images/image.jpg');
-    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    background-size: 100% 100%;
-
+    background-color: #808e9b;
 }
 
-.wether-app-container{
-    max-width: 1400px;
-    margin: 0 auto;
-    padding-top: 10rem;
-}
 .weather-app-data{
-    display: flex;
-    justify-content: space-between;
-
+    max-width: 1400px;
+    margin: 2rem auto 2rem auto;
+    display:flex;
+    align-items: center;
 }
 
-.list_items li{
-    color:white;
-    list-style-type: none;
+.container-one{
+    width: 1000px;
+    background-color: #d2eced;
+}
+.container-two{
+    width: 400px;
+    background-color: white;
+}
+
+.card-One, .card-Two{
+    width: 100%;
+    padding-top: 2rem;
+    height: 90vh;
+}
+
+/* form styling */
+.search_form{
+    display: flex;
+    justify-content: center;
     margin-bottom: 1rem;
 }
-
-form input{
-    padding: 8px;
-    border:none;
-    background-color: rgba(245, 241, 241, 0.395);
-    letter-spacing: 1px;
-
-}
-
-form input::placeholder{
-    color:white
+.search_form input{
+    padding: 5px;
 }
 button{
-    padding: 8px;
-    border: none;
-    background-color: rgba(245, 241, 241, 0.395);
+    padding: 0px 10px;
+    border:0;
+    background-color: #d2dae2;
     color:white;
-    letter-spacing: 1px;
+    font-weight: 700px;
+    letter-spacing: 1.5px;
 }
 
-.country_part{
+.data-card ul{
+    list-style-type: none;
+    
+}
+
+.card-two-card-two .data-card ul{
+    margin-top: 1rem;
     display: flex;
+    flex-direction: column;
     gap: 1rem;
-}
-.country_part>:nth-child(1){
-    font-size: 1.5rem;
-    font-weight: 900;
+    text-align: center;
+    color: white;
+    
 
 }
 
-.country_part>:nth-child(2),
-.country_part>:nth-child(3){
+.card-two-card-two{
+    width: 300px;
+    height: 400px;
+    border: 1px solid white;
+    margin: 0 auto 15px auto;
+    border-radius: 10px;
+    background-color:#0fbcf9;
+}
+
+.card-two-card-three, .card-two-card-four{
+    max-width: 300px;
+    margin: 0 auto 10px auto;
+}
+
+.wind-card, .temp-card{
+    width: 100%;
+    color:white;
+    font-weight: 600;
+}
+.wind-card{
+    background-color: #ff9ff3;
+    padding: 10px 15px;
+}
+
+.wind-card-data{
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+.humid-card-data{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.temp-card{
+    background-color: #dfe6e9;
+    padding: 10px 15px;
+}
+
+.temprature_farenheit, .temprature_celcius{
     display: flex;
-    align-items: self-end;
+    justify-content:space-between;
 }
 
+.temprature_farenheit img, .temprature_celcius img{
+   max-width: 20px;
+}
+
+.wind-card-data img, .humid-card-data img{
+    width: 22px;
+}
+
+/* data card styling starts */
+
+
+
+/* wind value image styling starts */
+#wind_value img, #humid_value img {
+    width: 20px;
+}
+
+#wind_value, #humid_value{
+    display: flex;
+    justify-content:  space-around;
+}
+
+#wind_value p, #humid_value p{
+    font-weight: 900px;
+    color:white;
+    font-weight: 600;
+}

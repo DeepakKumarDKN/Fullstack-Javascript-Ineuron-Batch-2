@@ -7,41 +7,81 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="wether-app-container">
+    <div class="weather-app-container">
         <div class="weather-app-data">
-            <div class="container-one">
-                <ul class="list_items">
-                    <li>
-                        <div class="country_part">
-                            <p id="country_name">Name</p>
-                            <p id="region">Region</p>
-                            <p id="country">Country</p>
+           <div class="container-one">
+                <div class="card-One">
+                    
+                </div>
+           </div>
+           <div class="container-two">
+                <div class="card-Two">
+                    <div class="card-two-card-one">
+                        <form class="search_form">
+                            <input type="text" placeholder="Enter The City Name">
+                            <button>Submit</button>
+                        </form>
+                    </div>
+                    <div class="card-two-card-two">
+                        <div class="data-card">
+                            <ul>
+                                <li>
+                                    <div id="countryName">Country Name</div>
+                                    <span id="stateName">State Name</span>
+                                    <span id="regionName">Region Name</span>
+
+                                </li>
+                                <li id="Image">image</li>
+                                <li id="date">Date</li>
+                                <li id="tempratureValue">Temprature</li>
+                                <li id="textValue">text</li>
+                                <li>
+                                    <div id="wind_value">
+                                        <img src="./images/wind.png" alt="">
+                                        <p>Wind</p>
+                                        <p>|</p>
+                                        <p>Value</p>
+                                    </div>
+                                    <div id="humid_value">
+                                        <img src="./images/humidity.png" alt="">
+                                        <p>Hum</p>
+                                        <p>|</p>
+                                        <p>Value</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                    </li>
-                    <li>Icon</li>
-                    <li id="text">Text</li>
-                    <form>
-                        <input type="text" placeholder="Enter the City Name" />
-                        <button>Search</button>
-                    </form>
-                </ul>
-            </div>
-            <div class="container-Two">
-                <ul class="list_items">
-                    <li>
-                        <p>Humidity</p>
-                        <p id="humidity"></p>
-                    </li>
-                    <li>
-                        <p>Air Pressure</p>
-                        <p id="air_pressure"></p>
-                    </li>
-                    <li>
-                        <p>Wind Speed</p>
-                        <p id="wind speed"></p>
-                    </li>
-                </ul>
-            </div>
+                    </div>
+                    <div class="card-two-card-three">
+                        <div class="wind-card">
+                            <div class="wind-card-data">
+                                <img src="./images/wind.png" alt="">
+                                <p>wind</p>
+                                <p id="wind_value">value</p>
+                            </div>
+                            <div class="humid-card-data">
+                                <img src="./images/humidity.png" alt="">
+                                <p>humid</p>
+                                <p id="humid_value">value</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-two-card-four">
+                        <div class="temp-card">
+                            <div class="temprature_farenheit">
+                                <img src="./images/hot-temperature.png" alt="">
+                                <p>Farenheit</p>
+                                <p id = "ferenheit_value">Value</p>
+                            </div>
+                            <div class="temprature_celcius">
+                                <img src="./images/hot-temperature.png" alt="">
+                                <p>Farenheit</p>
+                                <p id = "ferenheit_value">Value</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
         </div>
     </div>
 </body>
