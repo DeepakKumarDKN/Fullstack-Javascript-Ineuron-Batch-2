@@ -5,83 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Application</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
 </head>
 <body>
     <div class="weather-app-container">
-        <div class="weather-app-data">
-           <div class="container-one">
-                <div class="card-One">
-                    
-                </div>
-           </div>
-           <div class="container-two">
-                <div class="card-Two">
-                    <div class="card-two-card-one">
-                        <form class="search_form">
-                            <input type="text" placeholder="Enter The City Name">
-                            <button>Submit</button>
-                        </form>
+        <div class="container-left"></div>
+        <div class="container-right">
+            <div class="right-container">
+                <form>
+                    <div class="form_search">
+                        <img src="./images/search (1).png" alt="">
+                        <input type="text" name="" id="inputBox" placeholder="Search">
+                        <button>Submit</button>
                     </div>
-                    <div class="card-two-card-two">
-                        <div class="data-card">
-                            <ul>
-                                <li>
-                                    <div id="countryName">Country Name</div>
-                                    <span id="stateName">State Name</span>
-                                    <span id="regionName">Region Name</span>
+                    <div class="person_Logo">
+                        <img src="./images/man.png" alt="man_image">
+                    </div>
+                </form>
 
-                                </li>
-                                <li id="Image">image</li>
-                                <li id="date">Date</li>
-                                <li id="tempratureValue">Temprature</li>
-                                <li id="textValue">text</li>
-                                <li>
-                                    <div id="wind_value">
-                                        <img src="./images/wind.png" alt="">
-                                        <p>Wind</p>
-                                        <p>|</p>
-                                        <p>Value</p>
-                                    </div>
-                                    <div id="humid_value">
-                                        <img src="./images/humidity.png" alt="">
-                                        <p>Hum</p>
-                                        <p>|</p>
-                                        <p>Value</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-two-card-three">
-                        <div class="wind-card">
-                            <div class="wind-card-data">
-                                <img src="./images/wind.png" alt="">
-                                <p>wind</p>
-                                <p id="wind_value">value</p>
-                            </div>
-                            <div class="humid-card-data">
-                                <img src="./images/humidity.png" alt="">
-                                <p>humid</p>
-                                <p id="humid_value">value</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-two-card-four">
-                        <div class="temp-card">
-                            <div class="temprature_farenheit">
-                                <img src="./images/hot-temperature.png" alt="">
-                                <p>Farenheit</p>
-                                <p id = "ferenheit_value">Value</p>
-                            </div>
-                            <div class="temprature_celcius">
-                                <img src="./images/hot-temperature.png" alt="">
-                                <p>Farenheit</p>
-                                <p id = "ferenheit_value">Value</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="cityContainer">
+                
                 </div>
-           </div>
+            </div>
         </div>
     </div>
 </body>
