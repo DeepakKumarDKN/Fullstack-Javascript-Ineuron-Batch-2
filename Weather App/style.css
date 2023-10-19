@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 
 *{
     box-sizing: border-box;
     padding:0;
     margin:0;
-    font-family: 'Poppins', sans-serif;
 }
 body{
     background-color: #9980FA
@@ -31,7 +30,7 @@ body{
 
 }
 .right-container{
-    padding: 20px;
+    padding: 30px;
 
 }
 form {
@@ -69,4 +68,101 @@ form img{
 
 .person_Logo img{
     width: 50px;
+}
+
+/* Country-info-card styling starts */
+
+.Country-info-Card{
+    background-color: #9c88ff;
+    margin-top: 1rem;
+    padding: 15px;
+    border-radius: 10px;
+    color:white;
+}
+
+.cityDetails{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temp-date-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cityName{
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+}
+#regioncountryName{
+    font-family: 'Gabarito', sans-serif;
+   
+}
+
+#date, #tempData, #wheatherType{
+    font-family: 'Gabarito', sans-serif;
+    
+}
+#tempData{
+    font-size: 6rem;
+    
+}
+
+#wheatherType{
+    margin-bottom: 1rem;
+}
+
+
+#image_icon{
+    margin-bottom: 1rem;
+} 
+
+/* weather_Details styling starts */
+
+.weather_Details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.weather_Details .list_items img{
+    width: 18px;
+}
+
+.weather_Details ul li {
+    list-style-type: none;
+}
+
+.weather_Details .list_items{
+    display:flex;
+    justify-content: center;
+    font-family: 'Gabarito', sans-serif;
+    gap: 10px;
+
+}
+
+/* max-min-temp styling starts */
+
+.max-min-temp{
+    margin-top: 1rem;
+    font-family: 'Gabarito', sans-serif;
+    background-color: #e056fd;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.max-min-temp ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.max-min-temp .list-items img{
+    width: 25px;
 }
