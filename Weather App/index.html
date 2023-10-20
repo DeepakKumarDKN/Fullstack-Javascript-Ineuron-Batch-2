@@ -9,10 +9,46 @@
 </head>
 <body>
     <div class="weather-app-container">
-        <div class="container-left"></div>
+        <div class="container-left">
+            <div class="left-container">
+                <div class="date_am_pm">
+                    <p id="date_am_pm">Time</p>
+                    <p id="dateYear">Date</p>
+                </div>
+                <div class="forecast-weather">
+                    <h1>ForeCast Weather For 3 Days</h1>
+                    <div class="forecast-cardOne">
+                        <ul class="forecast-data">
+                            <li><p id="forecastDate">Date</p></li>
+                            <li><p id="forecastTemprature">Temp</p></li>
+                            <li><p id="forecasthumid">Humidity</p></li>
+                            <li><p id="weatherType">Weather</p></li>
+                        </ul>
+                    
+                    </div>
+                    <div class="forecast-cardTwo">
+                        <ul class="forecast-data">
+                            <li><p id="forecastDate">Date</p></li>
+                            <li><p id="forecastTemprature">Temp</p></li>
+                            <li><p id="forecasthumid">Humidity</p></li>
+                            <li><p id="weatherType">Weather</p></li>
+                        </ul class="forecast-data">
+                    </div>
+                    <div class="forecast-cardThree">
+                        <ul class="forecast-data">
+                            <li><p id="forecastDate">Date</p></li>
+                            <li><p id="forecastTemprature">Temp</p></li>
+                            <li><p id="forecasthumid">Humidity</p></li>
+                            <li><p id="weatherType">Weather</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
         <div class="container-right">
             <div class="right-container">
-                <form>
+                <form onsubmit="getData(event)">
                     <div class="form_search">
                         <img src="./images/search (1).png" alt="">
                         <input type="text" name="" id="inputBox" placeholder="Search">
@@ -26,11 +62,12 @@
                 <div class="Country-info-Card">
                     <div class="cityDetails">
                         <h1 id="cityName">City Name</h1>
-                        <p id="regioncountryName">Region Name CountryName</p>
+                        <span id="region">Region Name</span>
+                        <span id="countryName">CountryName</span>
                     </div>
                     <div class="temp-date-details">
-                        <img id="image_icon" src="" alt="">
-                        <p id="date">Date</p>
+                        <img id="image_icon" src="./images/cloudy.png" alt="">
+                        <p id="getDate">Date</p>
                         <h1 id="tempData">30<sup>o</sup></h1>
                         <h3 id="wheatherType">Kind Of Wheather</h3>
                     </div>
@@ -46,7 +83,7 @@
                             <li id="windIcon"><img src="./images/humidity.png" alt=""></li>
                             <li id="wind">Hum</li>
                             <li id="bar">|</li>
-                            <li id="windTemp">Temp</li>
+                            <li id="humidTemp">Temp</li>
                         </ul>
                     </div>
                 </div>
@@ -56,15 +93,15 @@
                         <li><img src="./images/hot-temperature.png" alt="temp_image"></li>
                         <li>Celcius</li>
                         <li>|</li>
-                        <li>temp</li>
-                        <li>city</li>
+                        <li id="celciusTemp">temp</li>
+                        <li id="cityName">city</li>
                     </ul>
                     <ul class="list-items">
                         <li><img src="./images/hot-temperature.png" alt="temp_image"></li>
                         <li>Farenheit</li>
                         <li>|</li>
-                        <li>temp</li>
-                        <li>city</li>
+                        <li id="farenTemp">temp</li>
+                        <li id="cityName">city</li>
                     </ul>
                 </div>
             </div>
