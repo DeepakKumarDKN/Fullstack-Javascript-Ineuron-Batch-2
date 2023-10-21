@@ -19,8 +19,9 @@ let date_year = document.getElementById('dateYear')
 
 let forecastDate = document.querySelectorAll('#forecastDate')
 let forecastTemprature = document.querySelectorAll('#forecastTemprature')
-let forecasthumid = document.querySelectorAll('#forecasthumid')
-let weatherType = document.querySelectorAll('#weatherType')
+let forecasthumid = document.querySelectorAll('#forecastHumid')
+let forecastweather = document.querySelectorAll('#forecastweather')
+let forecast_image = document.querySelectorAll('#forecast_image') 
 
 
 const getData = async (event) => {
@@ -70,7 +71,8 @@ const getData = async (event) => {
         forecastDate[i].innerHTML = forecastResult.forecast.forecastday[i].date
         forecastTemprature[i].innerHTML = forecastResult.forecast.forecastday[i].day.maxtemp_c
         forecasthumid[i].innerHTML = forecastResult.forecast.forecastday[i].day.avghumidity
-        weatherType[i].innerHTML = forecastResult.forecast.forecastday[i].day.condition.text
+        forecastweather[i].innerHTML = forecastResult.forecast.forecastday[i].day.condition.text
+        forecast_image[i].src = forecastResult.forecast.forecastday[i].day.condition.icon
         
 
     }    

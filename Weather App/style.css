@@ -21,7 +21,7 @@ body{
 .container-left{
     width: 600px;
     height: 640px;
-    background-color: #c7ecee;
+    background-color: #e7f3f4;
 }
 
 
@@ -112,6 +112,10 @@ form img{
     flex-direction: column;
     align-items: center;
 }
+.temp-date-details img{
+    width: 100px;
+    margin-top: -10px;
+}
 
 #cityName{
     font-family: 'Gabarito', sans-serif;
@@ -130,7 +134,7 @@ form img{
 }
 #tempData{
     font-size: 5rem;
-    /* border: 1px solid white */
+    margin-top: -10px;
     
 }
 
@@ -148,7 +152,7 @@ form img{
     
 } 
 #getDate{
-    margin-bottom: -25px;
+    margin-top: -10px;
 }
 
 /* weather_Details styling starts */
@@ -205,42 +209,78 @@ form img{
 
 /* forecast weather container styling starts */
 
+
+
 .forecast-weather{
     margin-top: 2rem;
+}
+
+.forecastData{
     display: flex;
-    flex-direction: column;
     gap: 1rem;
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 .forecast-weather h1{
     font-family: 'Gabarito', sans-serif;
-    color: green
+    color: #272828;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
-.forecast-cardOne, .forecast-cardTwo, .forecast-cardThree{
+.forecast-container{ 
     display: flex;
-    gap : 1rem
+    align-items: center;
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+
+.forecast-container:hover{
+    background-color:  #9c88ff;
+    color:white;
+}
+.forecast_Data{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 16px;
+}
+
+#forecast_image{
+    width: 80px;
     
 }
-.forecast-data{
-    list-style-type: none;
+
+/* sunrise and sunset styling starts */
+
+.sunrise_sunset{
+    margin-top: 1rem;
+    background-color: white;
+    padding: 10px;
+    color: rgb(84, 82, 82);
+    border-radius: 5px;
+
 }
 
-.forecast-cardOne>:nth-child(1),
-.forecast-cardOne>:nth-child(2),
-.forecast-cardOne>:nth-child(3),
-.forecast-cardOne>:nth-child(4),
-.forecast-cardTwo>:nth-child(1),
-.forecast-cardTwo>:nth-child(2),
-.forecast-cardTwo>:nth-child(3),
-.forecast-cardTwo>:nth-child(4),
-.forecast-cardThree>:nth-child(1),
-.forecast-cardThree>:nth-child(2),
-.forecast-cardThree>:nth-child(3),
-.forecast-cardThree>:nth-child(4){
+.sunrise-sunset-data{
+   background-color: #f4ece2;
+   padding: 5px;
+   margin-top: 1rem;
+}
+#sunrise_heading{
+
+    font-family: 'Gabarito', sans-serif; 
     font-size: 1rem;
-    font-family: 'Gabarito', sans-serif;
+    font-weight: 500;
+}
+
+.sunrise-sunset-data h1{
+    margin-top: 12px;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+.sunrise-sunset-container{ 
+    display: flex;
+    justify-content: space-between;
 }
