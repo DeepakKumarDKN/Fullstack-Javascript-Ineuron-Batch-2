@@ -213,11 +213,16 @@ form img{
 
 .forecast-weather{
     margin-top: 1rem;
+    background-color: white;
+    padding: 10px;
 }
 
 .forecastData{
     display: flex;
-    gap: 1rem;
+}
+
+.forecastData p{
+    font-size: 15px;
 }
 
 .forecast-weather h1{
@@ -226,6 +231,12 @@ form img{
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 10px;
+}
+
+.forecast-container{
+    background-color: #fcf1d0;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .forecastData{
