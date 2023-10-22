@@ -30,7 +30,7 @@ let moonset_time = document.getElementById('moonset_time')
 let weatherimage = document.querySelectorAll('#weatherimage')
 let hourlyTemprature = document.querySelectorAll('#hourlyTemprature')
 let hourlyWeatherText = document.querySelectorAll('#hourlyWeatherText')
-let hourlyhumidity = document.querySelectorAll('#hourlyhumidity')
+
 
 
 const getData = async (event) => {
@@ -84,7 +84,6 @@ const getData = async (event) => {
     weatherimage[i].src = forecastResult.forecast.forecastday[0].hour[i].condition.icon
     hourlyWeatherText[i].innerHTML = forecastResult.forecast.forecastday[0].hour[i].condition.text
     hourlyTemprature[i].innerHTML = forecastResult.forecast.forecastday[0].hour[i].temp_c
-    hourlyhumidity[i].innerHTML = forecastResult.forecast.forecastday[0].hour[i].humidity
    }
 
 
