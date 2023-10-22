@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
 
 
 *{
@@ -212,7 +212,7 @@ form img{
 
 
 .forecast-weather{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .forecastData{
@@ -228,59 +228,104 @@ form img{
     margin-bottom: 10px;
 }
 
-.forecast-container{ 
+.forecastData{
     display: flex;
-    align-items: center;
-    background-color: white;
-    padding: 20px 10px;
-    border-radius: 10px;
     justify-content: space-between;
+}
+
+.forecast-info{
+    display: flex;
+    font-family: 'Gabarito', sans-serif;
+    align-items: center;
 }
 
 
 .forecast-container:hover{
     background-color:  #9c88ff;
     color:white;
+    padding: 5px;
+    border-radius: 10px;
 }
-.forecast_Data{
-    font-family: 'Gabarito', sans-serif;
-    font-size: 16px;
-}
+
 
 #forecast_image{
     width: 80px;
     
 }
+.forecast-container>:nth-child(1){
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Gabarito', sans-serif;
+}
 
 /* sunrise and sunset styling starts */
 
+.city_heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* sunrise and sunset styling */
+
 .sunrise_sunset{
     margin-top: 1rem;
-    background-color: white;
-    padding: 10px;
-    color: rgb(84, 82, 82);
-    border-radius: 5px;
+    background-color: #575fcf;
+    color: white;
+}
+.sunrise_sunset .city_heading  #cityName, #sunrise_heading{
+    font-size: 14px !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 5px;
 
 }
-
-.sunrise-sunset-data{
-   background-color: #f4ece2;
-   padding: 5px;
-   margin-top: 1rem;
-}
-#sunrise_heading{
-
-    font-family: 'Gabarito', sans-serif; 
-    font-size: 1rem;
-    font-weight: 500;
+.sunrise_items, .sunset_items{
+    list-style-type: none;
 }
 
-.sunrise-sunset-data h1{
-    margin-top: 12px;
-    font-size: 12px !important;
-    font-weight: 500 !important;
-}
-.sunrise-sunset-container{ 
+.sunrise-data{
     display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.sunriseData, .sunsetData{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sunset_items, .sunrise_items{
+    margin-top: 15px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.sunrise_items >:nth-child(1),
+.sunset_items >:nth-child(1){
+    font-size: 10px;
+    color:rgb(204, 204, 241)
+}
+
+
+.sunriseData img, 
+.sunsetData img {
+    width: 80px;
+}
+
+
+.sunriseInfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.moonrise-data{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+
+.forecast-inhour{
+    display: flex;
+    margin-top: 1rem;
     justify-content: space-between;
 }

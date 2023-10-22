@@ -22,6 +22,15 @@ let forecastTemprature = document.querySelectorAll('#forecastTemprature')
 let forecasthumid = document.querySelectorAll('#forecastHumid')
 let forecastweather = document.querySelectorAll('#forecastweather')
 let forecast_image = document.querySelectorAll('#forecast_image') 
+let sunrise_time = document.getElementById('sunrise_time')
+let sunset_time = document.getElementById('sunset_time')
+let moonrise_time = document.getElementById('moonrise_time')
+let moonset_time = document.getElementById('moonset_time')
+
+let weatherimage = document.querySelectorAll('#weatherimage')
+let hourlyTemprature = document.querySelectorAll('#hourlyTemprature')
+let hourlyWeatherText = document.querySelectorAll('#hourlyWeatherText')
+let hourlyhumidity = document.querySelectorAll('#hourlyhumidity')
 
 
 const getData = async (event) => {
@@ -66,14 +75,31 @@ const getData = async (event) => {
     farenTemp.innerHTML = data.current.temp_f
     date_am.innerHTML = date_am_pm
     date_year.innerHTML = year_date
+    sunrise_time.innerHTML = forecastResult.forecast.forecastday[0].astro.sunrise
+    sunset_time.innerHTML = forecastResult.forecast.forecastday[0].astro.sunset
+    moonrise_time.innerHTML = forecastResult.forecast.forecastday[0].astro.moonrise
+    moonset_time.innerHTML = forecastResult.forecast.forecastday[0].astro.moonset
 
+   for(let i =0; i<=5; i++){
+    weatherimage[i].src = forecastResult.forecast.forecastday[0].hour[i].condition.icon
+    hourlyWeatherText[i].innerHTML = forecastResult.forecast.forecastday[0].hour[i].condition.text
+    hourlyTemprature[i].innerHTML = forecastResult.forecast.forecastday[0].hour[i].temp_c
+    hourlyhumidity[i].innerHTML = forecastResult.forecast.forecastday[0].hour[i].humidity
+   }
+
+
+    
     for(let i=0; i<=3; i++){
         forecastDate[i].innerHTML = forecastResult.forecast.forecastday[i].date
         forecastTemprature[i].innerHTML = forecastResult.forecast.forecastday[i].day.maxtemp_c
         forecasthumid[i].innerHTML = forecastResult.forecast.forecastday[i].day.avghumidity
         forecastweather[i].innerHTML = forecastResult.forecast.forecastday[i].day.condition.text
         forecast_image[i].src = forecastResult.forecast.forecastday[i].day.condition.icon
+    }   
+    
+    
         
-
-    }    
+       
+        
+    
 } 

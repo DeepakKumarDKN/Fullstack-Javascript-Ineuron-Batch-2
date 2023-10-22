@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <script src="./index.js" defer></script>
 </head>
+
 <body>
     <div class="weather-app-container">
         <div class="container-left">
@@ -20,81 +22,125 @@
                     <h1>Forecast Weather For 3 Days</h1>
                     <div class="forecastData">
                         <div class="forecast-container one">
-                            <div class="forecastImage">
-                                <img id="forecast_image" src="./images/27.png" alt="weather_image">
+                            <p id="forecastDate">Date</p>
+                            <div class="forecast-info">
+                                <div class="forecastImage">
+                                    <img id="forecast_image" src="./images/27.png" alt="weather_image">
+                                </div>
+                                <div class="forecast_Data">
+                                    <p id="forecastTemprature">Temp</p>
+                                    <p id="forecastHumid">Humid</p>
+                                    <p id="forecastweather">Weather</p>
+                                </div>
                             </div>
-                            <div class="forecast_Data">
-                                <p id="forecastDate">Date</p>
-                                <p id="forecastTemprature">Temp</p>
-                                <p id="forecastHumid">Humid</p>
-                                <p id="forecastweather">Weather</p>
-                            </div>
-                            
                         </div>
                         <div class="forecast-container two">
-                            <div class="forecastImage">
-                                <img id="forecast_image" src="./images/28.png" alt="weather_image">
-                            </div>
-                            <div class="forecast_Data">
-                                <p id="forecastDate">Date</p>
-                                <p id="forecastTemprature">Temp</p>
-                                <p id="forecastHumid">Humid</p>
-                                <p id="forecastweather">Weather</p>
+                            <p id="forecastDate">Date</p>
+                            <div class="forecast-info">
+                                <div class="forecastImage">
+                                    <img id="forecast_image" src="./images/28.png" alt="weather_image">
+                                </div>
+                                <div class="forecast_Data">
+                                    <p id="forecastTemprature">Temp</p>
+                                    <p id="forecastHumid">Humid</p>
+                                    <p id="forecastweather">Weather</p>
+                                </div>
                             </div>
                         </div>
                         <div class="forecast-container three">
-                            <div class="forecastImage">
-                                <img id="forecast_image" src="/images/6.png" alt="weather_image">
-                            </div>
-                            <div class="forecast_Data">
-                                <p id="forecastDate">Date</p>
-                                <p id="forecastTemprature">Temp</p>
-                                <p id="forecastHumid">Humid</p>
-                                <p id="forecastweather">Weather</p>
+                            <p id="forecastDate">Date</p>
+                            <div class="forecast-info">
+                                <div class="forecastImage">
+                                    <img id="forecast_image" src="./images/6.png" alt="weather_image">
+                                </div>
+                                <div class="forecast_Data">
+                                    <p id="forecastTemprature">Temp</p>
+                                    <p id="forecastHumid">Humid</p>
+                                    <p id="forecastweather">Weather</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="sunrise_sunset">
-                    <h1 id="sunrise_heading">Sunrise And Sunset</h1>
-                    <div class="sunrise-sunset-data">
-                        <h1 id="cityName">City Name</h1>
-                        <div class="sunrise-sunset-container">
-                            <div class="sunrise-container">
-                                <div>
-                                    <img id="image" src="" alt="image">
-                                </div>
-                                <p id="heading-sunrise">Sunrise</p>
-                                <p id="sunrise_timing">Timing</p>
+
+                    <div class="sunriseInfo">
+                        <div class="sunrise-data">
+                            <div class="sunriseData">
+                                <img src="./images/sunrise.png" id="sunrise" alt="">
+                                <ul class="sunrise_items">
+                                    <li>Sunrise</li>
+                                    <li id="sunrise_time">Time</li>
+                                </ul>
                             </div>
-                            <div class="sunrise-container">
-                                <div>
-                                    <img id="image" src="" alt="image">
-                                </div>
-                                <p id="heading-sunrise">Sunrise</p>
-                                <p id="sunrise_timing">Timing</p>
-                            </div>
-                            <div class="sunrise-container">
-                                <div>
-                                    <img id="image" src="" alt="image">
-                                </div>
-                                <p id="heading-sunrise">Sunrise</p>
-                                <p id="sunrise_timing">Timing</p>
-                            </div>
-                            <div class="sunrise-container">
-                                <div>
-                                    <img id="image" src="" alt="image">
-                                </div>
-                                <p id="heading-sunrise">Sunrise</p>
-                                <p id="sunrise_timing">Timing</p>
+                            <div class="sunsetData">
+                                <img src="./images/sunset_7999562.png" id="sunset" alt="">
+                                <ul class="sunset_items">
+                                    <li>Sunset</li>
+                                    <li id="sunset_time">Time</li>
+                                </ul>
                             </div>
                         </div>
-                        
+                        <div class="moonrise-data">
+                            <div class="sunriseData">
+                                <img src="./images/sunrise.png" id="sunrise" alt="">
+                                <ul class="sunrise_items">
+                                    <li>Moonrise</li>
+                                    <li id="moonrise_time">Time</li>
+                                </ul>
+                            </div>
+                            <div class="sunsetData">
+                                <img src="./images/sunset_7999562.png" id="sunset" alt="">
+                                <ul class="sunset_items">
+                                    <li>Moonset</li>
+                                    <li id="moonset_time">Time</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="forecast-inhour">
+                    <div>
+                        <img src="" id="weatherimage" alt="weatherimage">
+                        <p id="hourlyTemprature">Temp</p>
+                        <p id="hourlyWeatherText">Weather</p>
+                        <p id="hourlyhumidity">Humidity</p>
+
+                    </div>
+                    <div>
+                        <img src="" id="weatherimage" alt="weatherimage">
+                        <p id="hourlyTemprature">Temp</p>
+                        <p id="hourlyWeatherText">Weather</p>
+                        <p id="hourlyhumidity">Humidity</p>
+
+                    </div>
+                    <div>
+                        <img src="" id="weatherimage" alt="weatherimage">
+                        <p id="hourlyTemprature">Temp</p>
+                        <p id="hourlyWeatherText">Weather</p>
+                        <p id="hourlyhumidity">Humidity</p>
+
+                    </div>
+                    <div>
+                        <img src="" id="weatherimage" alt="weatherimage">
+                        <p id="hourlyTemprature">Temp</p>
+                        <p id="hourlyWeatherText">Weather</p>
+                        <p id="hourlyhumidity">Humidity</p>
+
+                    </div>
+                    <div>
+                        <img src="" id="weatherimage" alt="weatherimage">
+                        <p id="hourlyTemprature">Temp</p>
+                        <p id="hourlyTempature">Weather</p>
+                        <p id="hourlyhumidity">Humidity</p>
+
                     </div>
                 </div>
             </div>
-            
+
         </div>
         <div class="container-right">
             <div class="right-container">
@@ -158,4 +204,5 @@
         </div>
     </div>
 </body>
+
 </html>
