@@ -242,6 +242,7 @@ form img{
 .forecastData{
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .forecast-info{

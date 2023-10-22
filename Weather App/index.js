@@ -80,14 +80,12 @@ const getData = async (event) => {
     moonrise_time.innerHTML = forecastResult.forecast.forecastday[0].astro.moonrise
     moonset_time.innerHTML = forecastResult.forecast.forecastday[0].astro.moonset
 
-   for(let i =0; i<=5; i++){
+   for(let i=0; i<5; i++){
     weatherimage[i].src = forecastResult.forecast.forecastday[0].hour[i].condition.icon
     hourlyWeatherText[i].innerHTML = forecastResult.forecast.forecastday[0].hour[i].condition.text
     hourlyTemprature[i].innerHTML = forecastResult.forecast.forecastday[0].hour[i].temp_c
    }
 
-
-    
     for(let i=0; i<=3; i++){
         forecastDate[i].innerHTML = forecastResult.forecast.forecastday[i].date
         forecastTemprature[i].innerHTML = forecastResult.forecast.forecastday[i].day.maxtemp_c
@@ -95,10 +93,5 @@ const getData = async (event) => {
         forecastweather[i].innerHTML = forecastResult.forecast.forecastday[i].day.condition.text
         forecast_image[i].src = forecastResult.forecast.forecastday[i].day.condition.icon
     }   
-    
-    
-        
-       
-        
     
 } 
