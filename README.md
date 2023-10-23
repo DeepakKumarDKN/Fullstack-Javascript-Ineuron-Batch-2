@@ -63,6 +63,7 @@ Project Number | Project Link |
  Project 8 | [Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-Ineuron-Batch-2/tree/main/DOM%20Assignments%202.0%20Batch%20copy/DOM%20P8/DOM%20P8) | 
  Project 9 | [Link](https://github.com/DeepakKumarDKN/Fullstack-Javascript-Ineuron-Batch-2/tree/main/DOM%20Assignments%202.0%20Batch%20copy/DOM%20P9/DOM%20P9) | 
 
+
 <br>
 <br>
 
@@ -71,4 +72,5 @@ Project Number | Project Link |
 Project Number | Project Name | Link
 ---------|----------|---------
  1 | VS Code Clone  | [Link](https://visualstudio-proj-ineuron.netlify.app/)
- 
+
+## 👉 Weather Project   [Link](https://weather-app-ineuron.netlify.app/)
