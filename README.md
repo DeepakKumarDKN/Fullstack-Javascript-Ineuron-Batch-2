@@ -73,4 +73,10 @@ Project Number | Project Name | Link
 ---------|----------|---------
  1 | VS Code Clone  | [Link](https://visualstudio-proj-ineuron.netlify.app/)
 
-## 👉 Weather Project   [Link](https://weather-app-ineuron.netlify.app/)
+
+## 👉 Javascript Project
+
+Project Number | Project Name | Link | Responsive
+---------|----------|--------------|--------------
+ 1 | Weather Project  | [Link](https://weather-app-ineuron.netlify.app/) | No
+
