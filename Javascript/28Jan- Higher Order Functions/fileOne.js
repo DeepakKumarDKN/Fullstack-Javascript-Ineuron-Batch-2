@@ -174,7 +174,7 @@ const companyRevenue = data.filter((data)=>{
 
 
 // return will gives you an entire array but instead of printing array if you want to print 
-// only names of the company then instead of returing we can gor for print.
+// only names of the company then instead of returing we can go for print.
 
 // const filternamess = data.filter((company)=>{
 //   if(company.companyName.length>=6){
