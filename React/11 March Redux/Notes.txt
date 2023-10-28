@@ -1,0 +1,44 @@
+React Architecture 4 pillar 
+---------------------------
+View. 
+Action.
+Reducer. 
+Store. 
+
+
+View : Jo iew hota hai hame hamare react ke application mein dikhta hai hame woh 
+hamara View Hota Hein. for example buttons images colors
+
+Action: View ke kisi event mein action call hota hai jaise ki ek button mein
+onClick use karna etc etc and Action call kya hota hai, Action ka kam hota hai
+data ko collect karna from component or from API
+
+Reducer: Reducer ka kam hota hein data ko colect karna from action and usko store mein
+send karna. Reducer hamara data ko filter bhi karta hai.
+
+Store: Store contain karta hai state of complete application mallab hamara jitna bhi data hai woh
+hamara Store ke andar save hoga.
+
+THre will be only One Appication Inside One Store. And data hamesha ek hi direction mein flow karega 
+jaise Image mein show kiya gaya hai .. aisa kabhi nahi hoga ki hame data action  se view ko aaega 
+ya phir reducer se view ko jaega. 
+
+Redux With React Installation: 
+------------------------------
+1. Install React
+2. Install Redux
+
+Props in Redux 
+--------------
+props is very important in Redux kyun ki jab bhi ham data lete hain woh props ke through ki jata hai and props ki through hi atta hai.
+Ek component se dusre component ki communication karwane ke liye redux ki jaurat hoti hai.
+React mein ham jab ek component se ek componet ke andar data transfer karna hota hai tab ham STATE use karte hein, aur 
+jab ham ek component se dusre componet ke andar yani two component ke beech mein communication karwani hoti hai tab ham
+use kate hai Props. 
+
+
+
+NotE: 
+----
+Pehle ham component ko direct use karte they usko import kate the isnde the App.js mein 
+Pa jab ham redux use karte hein tam ham componet ko Container ke saath mein use karte hein.
