@@ -1,3 +1,5 @@
+// action react se data send karta hai store ke andar
+
 import { ADD_TO_CART, WISHLIST_CART } from "../Constant"
 
 export const addtoCart = (data) => {

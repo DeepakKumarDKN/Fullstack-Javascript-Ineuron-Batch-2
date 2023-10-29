@@ -42,3 +42,23 @@ NotE:
 ----
 Pehle ham component ko direct use karte they usko import kate the isnde the App.js mein 
 Pa jab ham redux use karte hein tam ham componet ko Container ke saath mein use karte hein.
+
+Folder Structure
+-----------------
+Components 
+Containers 
+service 
+    actions
+    reducers
+    constants
+
+containers ki kam yeah hai ki jo hamare component and redux honge jo servie ke andar hota hai 
+unko connect karega.
+
+uske baad ham services ke folder ke andar poora ka poora redux rakhenge jo hai ha hamara
+actions, reducers, constants
+
+constants ka kam yeah ki woh hame bolega ki  actions se data jab reducers mein jaenge tab konsa data konse 
+functions mein jana chahiye
+
+

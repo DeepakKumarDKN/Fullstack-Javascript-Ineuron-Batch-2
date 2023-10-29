@@ -1,3 +1,6 @@
+// What does reducer do .? 
+// Jo action se hame data milta hai usko store ke andar push karta hai.
+
 import {ADD_TO_CART} from '../Constant/ADD_TO_CART'
 
 
