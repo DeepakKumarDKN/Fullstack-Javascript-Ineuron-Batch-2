@@ -1,6 +1,0 @@
-// So esmein bhi ham data send kar sakhte hein and esmein ham direct A to C send kar sakhte hein 
-// yeah thoda allag kam kata hai and Prop Drlling ko aoid karne ke liye ham Context Api ko use karte hein. 
-
-// es mein ham sabsepehle contxt ko create karte hein aur jahan so data provide hota hai 
-// woh Provider hota hai and jahan data jata hai jahan se data ko receive karte hai usko ham bolte hain 
-// consumer
