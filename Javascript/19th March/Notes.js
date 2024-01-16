@@ -55,3 +55,26 @@
  * operations so not every request will go through ThreadPool
  * 
  */
+
+/**
+ * Application WorkFlow
+ * ----------------------
+ * User Will first request to the website for example google. facebook, ineuron etc and make a request
+ * and then we will get a home page lets take an example of ineuron we will get an ineuron homepage
+ * and then we will click on the courses to see the courses we have enrolled now what will happen 
+ * frontend will send request to backend now the backend will check what kind of request has arrived 
+ * and what kind of information has been asked 
+ * 
+ * suppose we want to click on the particular course to see what new video has been uploaded so for that 
+ * so what will backend will do is it going to make new request to the databse to check for new videos
+ * a new api call will be made by us an api call will hit to the databse but before hitting to the databse
+ * there will be something called middleware which will check that the credentials are correct or not and whether
+ * the request is doing is valid or not by checking whether we have paid for that course or not and after that the 
+ * databse will return an api with the particular video ans pass to the frontend.
+ * 
+ * 
+ * in simple words the client will make a request to the frontend and if required 
+ * the request will made by frontend to backend and based on the request made 
+ * the database call will be there and then the things will ber return to the 
+ * fontend and frontend will be sending request to the client.
+ */
