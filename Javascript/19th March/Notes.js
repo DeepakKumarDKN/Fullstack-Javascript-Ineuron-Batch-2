@@ -78,3 +78,37 @@
  * the database call will be there and then the things will ber return to the 
  * fontend and frontend will be sending request to the client.
  */
+
+
+/**
+ * Database
+ * ---------
+ * SQL:- Relational Databse
+ * NoSQL:- Non Relational Databse
+ */
+
+/**
+ * First we will be creating a react app then we will be creating a node app 
+ * then we need a find a way to connect react with node and both ofthem will be 
+ * connected via something called axios, using axios we connect frontend with backend
+ * this backend is going to have a url connecting string(database connecting string) 
+ * and the url connecting string will be connected to mongodb so whenver we will go 
+ * to the mongodb website and we will create new instance of database it is going to 
+ * give us a url string and we have to bring that url string and paste inside nodejs 
+ * application and the nodejs will be connected to frontend using axios
+ */
+
+/**
+ * MVC ARCHITRECTURE
+ * ------------------
+ * Client will send a request to the server then the controller will take the request
+ * and pass it to model and then model will interact with the database in that process 
+ * it also may execute some business logic if required, then after getting the data from the 
+ * databse it will pass it to the controller then the controller will pass that data to the view
+ * then the view will format the data and that formatted data will be sent to the client
+ * 
+ * 
+ * Model :- interacts with the databse and handle/executing some business logic, so our model basically deals with data
+ * View :- What users sees on the screen generate the UI for the user
+ * Controller : Take user input and interacts with the model and view. so it acts as a middle man in between model and view
+ */
