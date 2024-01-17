@@ -11,14 +11,8 @@
  * 
  * API :- APPLICATION PROGRAMMING INTERFACE
  * -----------------------------------------
- * it is a kind of link which carry certain information and to get back the data from the server
- * suppose we want to search for Inueuron , so google had an API Link which contains some domain name and path 
- * querystring it went to the server ask to the server for data / or the data informtaion server /
- * its just like that we want to get data from Ineuron and how we will get that data .. when we will 
- * search for ineuron google had an api link that contains data about ineuron which got informatin from server 
- * and then we will get to see a webpage which contain the detail informtaion about ineuron.
+ * API Stands for Application Programming Interface
  * 
- * so api is something which will comunicate with between the client and server
  * 
  * Node Js Architecture how does it work (important for interview)(Follow ImageOne)
  * --------------------------------------------------------------------------------
@@ -70,12 +64,12 @@
  * a new api call will be made by us an api call will hit to the databse but before hitting to the databse
  * there will be something called middleware which will check that the credentials are correct or not and whether
  * the request is doing is valid or not by checking whether we have paid for that course or not and after that the 
- * databse will return an api with the particular video ans pass to the frontend.
+ * databse will return an api with the particular video and pass to the frontend.
  * 
  * 
  * in simple words the client will make a request to the frontend and if required 
  * the request will made by frontend to backend and based on the request made 
- * the database call will be there and then the things will ber return to the 
+ * the database call will be there and then the things will  return to the 
  * fontend and frontend will be sending request to the client.
  */
 
@@ -89,7 +83,7 @@
 
 /**
  * First we will be creating a react app then we will be creating a node app 
- * then we need a find a way to connect react with node and both ofthem will be 
+ * then we need to find a way to connect react with node and both ofthem will be 
  * connected via something called axios, using axios we connect frontend with backend
  * this backend is going to have a url connecting string(database connecting string) 
  * and the url connecting string will be connected to mongodb so whenver we will go 
