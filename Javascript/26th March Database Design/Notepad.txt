@@ -1,0 +1,44 @@
+Social Media App Design 
+-----------------------
+There are two types of access one is admin and the other one is super admin
+admin cannot create a subadmin but superadmin can create both admin and superadmin 
+
+super-admin
+admin 
+sub-admin 
+
+super-admin is just like owner. super-admin can manage everything, super-admin is the 
+one who has more power, sud-admin controlling power willbe less as compared to the super-admin
+
+Database Keys:-
+---------------
+Key :- Key is one of the attribute of the table. The main purpose of the key is to uniquely identify
+any two tuples in the table that means if there are any two row where the information is same for example: 
+
+sname    city     age    rollno
+-----    -----   -----   ------
+deepak   kolkota   22      1
+rahul    mumbai    21      2
+deepak   kolkota   22      3
+
+so look here there are two rows where the informtaion is same so now the problem will arise so to uniquely 
+identify this we need a key.
+
+so here rollno is also a attribute so now with the help of rollno we will be 
+able to distinguish between both the rows so key is an attribute and attribute can be 
+anything like rollno, adharcard. registration number, license no, voterid card, phone number.
+
+
+ToRead:
+-------
+database keys.
+normalization.
+
+
+
+Device
+------
+Device id:
+User Id:
+Location-Id(Foreign-Key):
+Device-List:
