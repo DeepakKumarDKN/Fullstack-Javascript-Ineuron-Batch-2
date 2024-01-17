@@ -58,9 +58,46 @@ nahi kar sakhte hai kimujhe meri pasand ka number chahiye ....
 so Primary Key jo  hota hai unique hona chahiye and not null matlab ham usko khali nahi sakhte ya phir
 koi duplicate value add nahi kar sakhte hain..
 
-Lekin Candidate key kya hota hai khali unique hota hai.
+Lekin Candidate key kya hota hai khali unique hota hai. Aur Candidate key ek se jyada ho sakhte hein 
 
 Aur ek databse mein ek hi Primary Key Hota hai.. 
+
+Foreign Key:-
+-------------
+Foreign key is different from candidate key and primary key.
+Foreign key is the one is used to link two tables together or create connectivity between the two.
+
+Foreign key is the one that is used to link two tables together via primary key. It
+means the columns of one table points out to the primary key attribute of the other table
+
+it further means that if any attribute is set as a primary key attribute will work in another table as
+foreign key attribute.
+
+But foreign key has nothing to do with primary key.
+In one table there can be multiple Foreign Key But Primary key should be one.
+
+Student Table:-
+---------------
+Stud_id      Name        Course
+=======     ======      =========
+101          deepak       python 
+102          rahul       javascript
+103          aly           Node
+
+stud_id :- Primary Key
+
+Department Table:
+--------------------
+Department Name            Stud_id
+================         ===========
+cs department                101
+science department           105 
+math department              101
+
+stud_id :- Foreign Key 
+
+
+
 
 
 ToRead:
