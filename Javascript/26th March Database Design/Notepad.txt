@@ -37,6 +37,32 @@ and from the Candidate key we can choose one Primary key . So Primary key is bei
 chooses from Candidate Key.
 
 
+Primary Key:-
+-------------
+[Unique + not null]
+
+key jo hai unique hona chahiye jaise ki phone number, voter-card, license-no,
+pan-card, registration number, rollno and en sare attributes ko ham candidate key bhi bolte hain
+par khali unique se kam nahi chalne wala hai kyun ki unique ke saath saath esko not-null bhi hona 
+padega not null ka matlab ki ham es feild ko khali nahi chod sakhte hame kuch na kuch es mein
+bharna hi padega.
+
+aur jo Primary key hai ham user se le nahi sakhte hai hame dena padhta hai jaise ki jab ham koi
+university mein admission karne jaenge tab hame admission karne ke baad ham 
+yeah nahi bol sakhte hein ki mujhe ek particular rollno chahiye .. nahi aisa nahi hoga 
+apko ek roll no milega.
+
+jaise ki aur ek example license number ki hi baat kar lo wahan hame number milta hai ham unko request 
+nahi kar sakhte hai kimujhe meri pasand ka number chahiye .... 
+
+so Primary Key jo  hota hai unique hona chahiye and not null matlab ham usko khali nahi sakhte ya phir
+koi duplicate value add nahi kar sakhte hain..
+
+Lekin Candidate key kya hota hai khali unique hota hai.
+
+Aur ek databse mein ek hi Primary Key Hota hai.. 
+
+
 ToRead:
 -------
 database keys.
