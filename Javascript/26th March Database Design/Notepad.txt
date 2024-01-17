@@ -29,6 +29,14 @@ able to distinguish between both the rows so key is an attribute and attribute c
 anything like rollno, adharcard. registration number, license no, voterid card, phone number.
 
 
+Candidate Key:
+---------------
+All the set of uniquely identify keys are known as Candidate Key for example : 
+rollno, adharcard, resgistration no, license no, voterid-card, phone number 
+and from the Candidate key we can choose one Primary key . So Primary key is being 
+chooses from Candidate Key.
+
+
 ToRead:
 -------
 database keys.
