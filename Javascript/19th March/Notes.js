@@ -10,6 +10,7 @@
  * request has arrived and based on the request the server will send the response
  * 
  * API :- APPLICATION PROGRAMMING INTERFACE
+ * -----------------------------------------
  * it is a kind of link which carry certain information and to get back the data from the server
  * suppose we want to search for Inueuron , so google had an API Link which contains some domain name and path 
  * querystring it went to the server ask to the server for data / or the data informtaion server /
@@ -36,14 +37,13 @@
  * Event Queue : - whenever we do any request it will go the Event Queue
  * Thread Pool : - If there is something which require a connectivity through 
  * database will go to the Thread Pool or anything that we have to go out from the
- * backend and front end that particular thing will go to the Thread Pool and Event Loop 
- * is going to perform this activity
+ * backend and front end that particular thing will go to the Thread Pool.
  * 
  * so its a Task for Thread Pool to go and connect with the database.
  * 
  * 
  * first of all request will be made then all the request will go to the event queue
- * and after that there is something called event loop which will check that what type is 
+ * and after that there is something called event loop which will check that what type of
  * request has came so its basically the task of Event Loop to check that what type of 
  * request has came, and if there is a request which require database connectivity
  * in that case the event loop will send that request to the Thread Pool. So not only the 
