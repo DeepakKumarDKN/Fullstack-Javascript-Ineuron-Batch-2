@@ -67,9 +67,8 @@ Foreign Key:-
 Foreign key is different from candidate key and primary key.
 Foreign key is the one is used to link two tables together or create connectivity between the two.
 
-Foreign key is the one that is used to link two tables together via primary key. It
-means the columns of one table points out to the primary key attribute of the other table
-
+Foreign key is the one that is used to link two tables together via primary key. 
+ + +-
 it further means that if any attribute is set as a primary key attribute will work in another table as
 foreign key attribute.
 
@@ -95,7 +94,29 @@ science department           105
 math department              101
 
 stud_id :- Foreign Key 
+Stud_id from foreign key is taking reference from Stud_id in Student Table.
 
+
+Foreign Key is used to maintain the Referential Integrity.
+
+Referential Integrity :-
+-------------------------
+Integrity matlab same value. 
+For an example jab ham mobile kharidne jaenge tab hamara jo cost hai mobila ka
+woh varry karega jaise ki flipkart, amazon , showroom sab mein rates allag hoga 
+eska matlab wahan integrity nahi hai
+--+
+Ek University ka example ham le lete hain, suppose ek student hai jiska name hai
+Aly Goni aur woh belong karta hai CS Branch ke liye. Toh ham jab check karenge 
+jaise ki Sports Department, Attendance Register, Cultural Department, jahan bhi 
+check karenge toh woh joh student Aly Goni hai woh CS Branch se hi belong karega
+toh es case mein hamara integrity loos nahi hoga par mobile wale case mein integrity 
+loss ho jaega kyun ki har ek ka allag databse hai Flipkart ka allag hai Amazon ka allag 
+hai sabka allag hai jiske vajeh se integrity loss ho jata hai . 
+
+Referenced Table : Primary key hame is table mein milega. 
+Refrencing Table : Foreign Key hame is table mein milega 
+Foreign key hamesha referential Integrity maintain karta hai. 
 
 
 
