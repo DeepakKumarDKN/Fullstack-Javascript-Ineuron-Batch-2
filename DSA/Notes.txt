@@ -1,0 +1,29 @@
+Data Structure:-
+---------------
+Primitive Datatype 
+Non Primitive Datatype.
+
+Non Primitive Datatype:
+------------------------
+Array
+Lists
+Files
+
+List:
+-----
+Linear List
+Non Linear List 
+
+Linear List:
+-------------
+Stacks 
+Queues 
+
+Non Linear List
+----------------
+Graphs
+Trees
+
+
+
+  
