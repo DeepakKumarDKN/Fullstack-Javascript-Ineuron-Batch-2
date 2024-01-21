@@ -29,4 +29,35 @@
 // andar kaisa store ho raha hein usse hame koi matlab nahi hai par jab ham data 
 // nikalenge hame bas woi data milega jo ki akhiri mein push kiya gaya hoga 
 
-// 
+let data = []
+let currentSeize = data.length
+
+let max = 2;
+
+function push(newValue){
+    if(data.length<=max){
+        data[currentSeize] = newValue;
+        currentSeize+=1
+    }
+    else{
+        console.log('Ho gaya bhai')
+    }
+}
+
+function pop(){
+    if(currentSeize>0){
+        currentSeize-=1
+        data.length = currentSeize
+    }
+    else{
+        console.log('all elemnts are removed')
+    }
+}
+
+push(10)
+push(20)
+push(30)
+pop()
+console.log(data)
+console.log(currentSeize)
+console.log(data.length)
